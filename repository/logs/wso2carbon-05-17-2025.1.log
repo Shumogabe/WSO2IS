@@ -1,0 +1,2 @@
+TID: [-1234] [oauth2] [2025-05-17 02:12:48,415] [ea85cade-1c3f-4abc-bec3-585770c6304e]  WARN {org.wso2.carbon.identity.oauth2.authz.validators.AbstractResponseTypeRequestValidator} - Provided Callback URL does not match with the registered one.
+TID: [-1234] [oauth2] [2025-05-17 02:28:48,470] [5683866d-1a09-4d48-a937-f4dcf0a7a0b8]  WARN {org.wso2.carbon.identity.oauth2.authz.validators.AbstractResponseTypeRequestValidator} - Provided Callback URL does not match with the registered one.

@@ -1,0 +1,1238 @@
+TID: [2025-04-03 09:19:03,741]  WARN {org.wso2.config.mapper.ConfigParser} - Configurations Changed in :repository/conf/deployment.toml {org.wso2.config.mapper.ConfigParser}
+TID: [2025-04-03 09:19:03,746]  WARN {org.wso2.config.mapper.ConfigParser} - Overriding files in configuration directory /opt/wso2is-tnmt {org.wso2.config.mapper.ConfigParser}
+TID: [] [] [2025-04-03 09:19:13,548] []  INFO {org.ops4j.pax.logging.spi.support.EventAdminConfigurationNotifier} - Sending Event Admin notification (configuration successful) to org/ops4j/pax/logging/Configuration
+TID: [] [] [2025-04-03 09:19:13,688] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Starting WSO2 Carbon...
+TID: [] [] [2025-04-03 09:19:13,689] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Operating System : Linux 6.8.0-54-generic, amd64
+TID: [] [] [2025-04-03 09:19:13,689] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Home        : /opt/jdk-11.0.17
+TID: [] [] [2025-04-03 09:19:13,690] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Version     : 11.0.17
+TID: [] [] [2025-04-03 09:19:13,690] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java VM          : Java HotSpot(TM) 64-Bit Server VM 11.0.17+10-LTS-269,Oracle Corporation
+TID: [] [] [2025-04-03 09:19:13,690] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Carbon Home      : /opt/wso2is-tnmt
+TID: [] [] [2025-04-03 09:19:13,690] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Temp Dir    : /opt/wso2is-tnmt/tmp
+TID: [] [] [2025-04-03 09:19:13,690] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - User             : root, en-US, Asia/Ho_Chi_Minh
+TID: [] [] [2025-04-03 09:19:13,944] []  INFO {org.wso2.carbon.event.output.adapter.kafka.internal.ds.KafkaEventAdapterServiceDS} - Successfully deployed the Kafka output event adaptor service
+TID: [] [] [2025-04-03 09:19:14,112] []  INFO {org.wso2.carbon.extension.identity.verification.provider.internal.IdVProviderMgtServiceComponent} - IdVProviderMgtService bundle activated successfully.
+TID: [] [] [2025-04-03 09:19:14,400] []  INFO {org.wso2.carbon.identity.hash.provider.pbkdf2.internal.PBKDF2HashServiceComponent} - PBKDF2 bundle activated successfully.
+TID: [] [] [2025-04-03 09:19:15,591] []  INFO {org.wso2.carbon.mex.internal.Office365SupportMexComponent} - Office365Support MexServiceComponent bundle activated successfully..
+TID: [] [] [2025-04-03 09:19:15,619] []  INFO {org.wso2.carbon.mex2.internal.DynamicCRMCustomMexComponent} - DynamicCRMSupport MexServiceComponent bundle activated successfully.
+TID: [] [] [2025-04-03 09:19:16,259] []  WARN {org.apache.tomcat.jdbc.pool.ConnectionPool} - maxIdle is smaller than minIdle, setting maxIdle to: 30
+TID: [] [] [2025-04-03 09:19:17,146] []  WARN {org.apache.tomcat.jdbc.pool.ConnectionPool} - maxIdle is smaller than minIdle, setting maxIdle to: 30
+TID: [] [] [2025-04-03 09:19:17,356] []  INFO {org.wso2.carbon.consent.mgt.core.internal.ConsentManagerComponent} - ConsentManagerComponent is activated.
+TID: [] [] [2025-04-03 09:19:17,390] []  INFO {org.wso2.carbon.extension.identity.verification.mgt.internal.IdentityVerificationServiceComponent} - IdentityVerificationService bundle activated successfully.
+TID: [] [] [2025-04-03 09:19:17,583] []  INFO {org.wso2.carbon.identity.sample.local.authenticator.internal.DefaultOtpComponent} - org.wso2.carbon.identity.sample.local.authenticator.global.defaultotp.DefaultOtpAuthenticator@1a91cb3c
+TID: [] [] [2025-04-03 09:19:17,585] []  INFO {org.wso2.carbon.identity.sample.local.authenticator.internal.GlobalEmailOtpComponent} - org.wso2.carbon.identity.sample.local.authenticator.global.email.GlobalEmailOtpAuthenticator@51285ce
+TID: [] [] [2025-04-03 09:19:17,587] []  INFO {org.wso2.carbon.identity.sample.local.authenticator.internal.GlobalPkiComponent} - org.wso2.carbon.identity.sample.local.authenticator.global.pki.GlobalPkiAuthenticator@759fbee9
+TID: [] [] [2025-04-03 09:19:17,588] []  INFO {org.wso2.carbon.identity.sample.local.authenticator.internal.GlobalSmsOtpComponent} - org.wso2.carbon.identity.sample.local.authenticator.global.sms.GlobalSmsOtpAuthenticator@2727efb0
+TID: [] [] [2025-04-03 09:19:17,590] []  INFO {org.wso2.carbon.identity.sample.local.authenticator.internal.GlobalUsbComponent} - org.wso2.carbon.identity.sample.local.authenticator.global.usb.GlobalUsbAuthenticator@10ae2167
+TID: [] [] [2025-04-03 09:19:17,591] []  INFO {org.wso2.carbon.identity.sample.local.authenticator.internal.LdapAuthenticatorComponent} - org.wso2.carbon.identity.sample.local.authenticator.global.ldap.LdapAuthenticator@674504c9
+TID: [] [] [2025-04-03 09:19:17,593] []  INFO {org.wso2.carbon.identity.sample.local.authenticator.internal.QrCodeComponent} - org.wso2.carbon.identity.sample.local.authenticator.global.qrcode.QrCodeAuthenticator@23db72f4
+TID: [] [] [2025-04-03 09:19:17,595] []  INFO {org.wso2.carbon.identity.sample.local.authenticator.internal.SmeBasicComponent} - org.wso2.carbon.identity.sample.local.authenticator.sme.SmeBasicAuthenticator@760a4713
+TID: [] [] [2025-04-03 09:19:17,596] []  INFO {org.wso2.carbon.identity.sample.local.authenticator.internal.VNCONNECTMappingComponent} - org.wso2.carbon.identity.sample.local.authenticator.global.mapping.VNCONNECT@5675c132
+TID: [] [] [2025-04-03 09:19:17,598] []  INFO {org.wso2.carbon.identity.sample.local.authenticator.internal.VNeIDMappingComponent} - org.wso2.carbon.identity.sample.local.authenticator.global.mapping.VNeID@5e064365
+TID: [] [] [2025-04-03 09:19:17,683] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+TID: [] [] [2025-04-03 09:19:18,053] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Configured Registry in 62ms
+TID: [] [] [2025-04-03 09:19:18,139] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 5ms
+TID: [] [] [2025-04-03 09:19:18,140] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 6ms
+TID: [] [] [2025-04-03 09:19:18,233] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 1ms
+TID: [] [] [2025-04-03 09:19:18,233] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 2ms
+TID: [] [] [2025-04-03 09:19:18,244] []  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} - Registry Mode    : READ-WRITE
+TID: [] [] [2025-04-03 09:19:19,743] []  INFO {org.wso2.carbon.registry.indexing.solr.SolrClient} - Default Embedded Solr Server Initialized
+TID: [] [] [2025-04-03 09:19:20,156] []  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} - Carbon UserStoreMgtDSComponent activated successfully.
+TID: [] [] [2025-04-03 09:19:20,287] []  INFO {org.wso2.carbon.attachment.mgt.server.internal.AttachmentServiceComponent} - Initialising Attachment Server
+TID: [] [] [2025-04-03 09:19:20,465] []  INFO {org.wso2.carbon.attachment.mgt.core.dao.impl.jpa.AbstractJPAVendorAdapter} - [Attachment-Mgt OpenJPA] DB Dictionary: h2
+TID: [] [] [2025-04-03 09:19:20,465] []  INFO {org.wso2.carbon.attachment.mgt.core.dao.impl.jpa.AbstractJPAVendorAdapter} - [Attachment-Mgt OpenJPA] Generate DDL Enabled.
+TID: [] [] [2025-04-03 09:19:20,556] []  INFO {org.wso2.carbon.attachment.mgt.server.internal.AttachmentServiceComponent} - Registering AttachmentServerService
+TID: [] [] [2025-04-03 09:19:20,577] []  INFO {org.wso2.carbon.bpel.core.internal.BPELServiceComponent} - Initializing BPEL Engine........
+TID: [] [] [2025-04-03 09:19:20,631] []  INFO {org.apache.ode.il.EmbeddedGeronimoFactory} - Using embedded Geronimo transaction manager
+TID: [] [] [2025-04-03 09:19:20,657] []  INFO {org.apache.ode.il.dbutil.Database} - ODE using external DataSource "bpsds".
+TID: [] [] [2025-04-03 09:19:20,658] []  INFO {org.wso2.carbon.bpel.core.ode.integration.BPELServerImpl} - Using DAO Connection Factory class: org.apache.ode.dao.jpa.BPELDAOConnectionFactoryImpl
+TID: [] [] [2025-04-03 09:19:20,658] []  INFO {org.apache.ode.il.dbutil.Database} - Using DAO Connection Factory class org.apache.ode.dao.jpa.BPELDAOConnectionFactoryImpl.
+TID: [] [] [2025-04-03 09:19:20,731] []  INFO {org.apache.ode.store.jpa.DbConfStoreConnectionFactory} - ProcessStore initializing transaction manager using org.apache.ode.il.EmbeddedGeronimoFactory
+TID: [] [] [2025-04-03 09:19:20,732] []  INFO {org.apache.ode.il.EmbeddedGeronimoFactory} - Using embedded Geronimo transaction manager
+TID: [] [] [2025-04-03 09:19:20,753] []  INFO {org.apache.ode.scheduler.simple.JdbcDelegate} - Using database H2 major version 2
+TID: [] [] [2025-04-03 09:19:20,754] []  INFO {org.apache.ode.scheduler.simple.JdbcDelegate} - Using database dialect: H2
+TID: [] [] [2025-04-03 09:19:20,767] []  INFO {org.wso2.carbon.bpel.core.ode.integration.BPELServerImpl} - This node is a manager node
+TID: [] [] [2025-04-03 09:19:20,776] []  INFO {org.wso2.carbon.bpel.core.ode.integration.BPELServerImpl} - Registering E4X Extension...
+TID: [] [] [2025-04-03 09:19:20,784] []  INFO {org.wso2.carbon.bpel.core.ode.integration.BPELServerImpl} - Registering B4P Extension...
+TID: [] [] [2025-04-03 09:19:20,793] []  INFO {org.wso2.carbon.bpel.core.ode.integration.BPELServerImpl} - Registering B4P Filter...
+TID: [] [] [2025-04-03 09:19:20,798] []  INFO {org.apache.ode.bpel.engine.BpelServerImpl} - BPEL Server Started.
+TID: [] [] [2025-04-03 09:19:20,798] []  INFO {org.wso2.carbon.bpel.core.ode.integration.BPELServerImpl} - Registering MBeans
+TID: [] [] [2025-04-03 09:19:20,873] []  INFO {org.wso2.carbon.humantask.core.internal.HumanTaskServiceComponent} - Initialising HumanTask Server
+TID: [] [] [2025-04-03 09:19:20,939] []  INFO {org.apache.ode.il.EmbeddedGeronimoFactory} - Using embedded Geronimo transaction manager
+TID: [] [] [2025-04-03 09:19:20,950] []  INFO {org.wso2.carbon.humantask.core.dao.jpa.AbstractJPAVendorAdapter} - [HT OpenJPA] DB Dictionary: h2
+TID: [] [] [2025-04-03 09:19:20,950] []  INFO {org.wso2.carbon.humantask.core.dao.jpa.AbstractJPAVendorAdapter} - [HT OpenJPA] Generate DDL Enabled.
+TID: [] [] [2025-04-03 09:19:20,974] []  INFO {org.wso2.carbon.humantask.core.internal.HumanTaskServiceComponent} - Registering Axis2ConfigurationContextObserver
+TID: [] [] [2025-04-03 09:19:20,986] []  INFO {org.wso2.carbon.humantask.core.internal.HumanTaskServiceComponent} - Registering HT related MBeans
+TID: [] [] [2025-04-03 09:19:20,990] []  INFO {org.wso2.carbon.humantask.core.internal.HumanTaskServiceComponent} - MXBean for Human tasks registered successfully
+TID: [] [] [2025-04-03 09:19:21,527] []  INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} - User Store Configuration Deployer initiated.
+TID: [] [] [2025-04-03 09:19:21,528] []  INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} - User Store Configuration Deployer initiated.
+TID: [] [] [2025-04-03 09:19:21,531] []  INFO {org.wso2.carbon.bpel.deployer.BPELDeployer} - Initializing BPEL Deployer for tenant -1234.
+TID: [] [] [2025-04-03 09:19:21,538] []  INFO {org.wso2.carbon.humantask.deployer.HumanTaskDeployer} - Initializing HumanTask Deployer for tenant -1234.
+TID: [] [] [2025-04-03 09:19:21,546] []  INFO {org.apache.axis2.transport.mail.MailTransportSender} - MAILTO Sender started
+TID: [] [] [2025-04-03 09:19:21,800] []  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} - Deploying Axis2 service: AdminAdvisoryManagementService {super-tenant}
+TID: [] [] [2025-04-03 09:19:22,298] []  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} - Deploying Axis2 service: I18nEmailMgtConfigService {super-tenant}
+TID: [] [] [2025-04-03 09:19:23,263] []  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} - Deploying Axis2 service: AccountCredentialMgtConfigService {super-tenant}
+TID: [] [] [2025-04-03 09:19:23,266] []  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} - Deploying Axis2 service: UserIdentityManagementAdminService {super-tenant}
+TID: [] [] [2025-04-03 09:19:23,270] []  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} - Deploying Axis2 service: UserInformationRecoveryService {super-tenant}
+TID: [] [] [2025-04-03 09:19:23,364] []  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} - Deploying Axis2 service: SAMLQueryService {super-tenant}
+TID: [] [] [2025-04-03 09:19:23,749] []  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} - Deploying Axis2 service: mex-ut {super-tenant}
+TID: [] [] [2025-04-03 09:19:23,755] []  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} - Deploying Axis2 service: mex-ut2 {super-tenant}
+TID: [] [] [2025-04-03 09:19:24,370] []  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Repository       : /opt/wso2is-tnmt/repository/deployment/server/
+TID: [] [] [2025-04-03 09:19:24,412] []  INFO {org.wso2.carbon.core.multitenancy.eager.TenantLoadingConfig} - Using tenant lazy loading policy...
+TID: [] [] [2025-04-03 09:19:24,432] []  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} - Permission cache updated for tenant -1234
+TID: [] [] [2025-04-03 09:19:24,568] []  INFO {org.wso2.carbon.identity.sso.cas.internal.CASAuthenticatorServiceComponent} - Identity CAS SSO bundle is activated
+TID: [] [] [2025-04-03 09:19:25,067] []  INFO {org.wso2.carbon.identity.entitlement.internal.SchemaBuilder} - XACML policy schema loaded successfully.
+TID: [] [] [2025-04-03 09:19:25,084] []  INFO {org.wso2.balana.ConfigurationStore} - Loading runtime configuration
+TID: [] [] [2025-04-03 09:19:25,479] []  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} - Claim manager set for class org.wso2.carbon.user.core.common.DefaultRealm
+TID: [] [] [2025-04-03 09:19:25,483] []  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} - Claim manager set for class org.wso2.carbon.user.core.jdbc.UniqueIDJDBCUserStoreManager
+TID: [] [] [2025-04-03 09:19:26,170] []  WARN {org.wso2.carbon.identity.auth.service.internal.AuthenticationServiceComponent} - 
+
+##################################  ALERT  ##################################
+[WARNING]: Internal authentication is utilizing default credentials,
+which may expose the environment to potential security risks.
+If this is a production environment, change the credentials immediately.
+#############################################################################
+
+TID: [] [] [2025-04-03 09:19:26,184] []  INFO {org.wso2.carbon.identity.organization.management.tenant.association.internal.TenantAssociationServiceComponent} - Organization management related TenantAssociationManagementListener registered successfully.
+TID: [] [] [2025-04-03 09:19:26,683] []  INFO {org.wso2.carbon.identity.authenticator.x509Certificate.internal.X509CertificateServiceComponent} - X509 Certificate Servlet activated successfully..
+TID: [] [] [2025-04-03 09:19:26,782] []  WARN {org.wso2.carbon.identity.event.internal.IdentityEventServiceComponent} - Properties for GovernanceConfigUpdateHandler is not configured. This event handler will not be activated
+TID: [] [] [2025-04-03 09:19:26,978] []  INFO {org.wso2.carbon.identity.local.auth.api.core.internal.AuthAPIServiceComponent} - Auth API Service Component  is activated.
+TID: [] [] [2025-04-03 09:19:27,743] []  INFO {org.wso2.carbon.identity.oauth.config.OAuthServerConfiguration} - The default OAuth token issuer will be used. No custom token generator is set.
+TID: [] [] [2025-04-03 09:19:27,744] []  INFO {org.wso2.carbon.identity.oauth.config.OAuthServerConfiguration} - An instance of org.wso2.carbon.identity.oauth2.token.OauthTokenIssuerImpl is created for Identity OAuth token generation.
+TID: [] [] [2025-04-03 09:19:27,759] []  INFO {org.opensaml.core.config.InitializationService} - Initializing OpenSAML using the Java Services API
+TID: [] [] [2025-04-03 09:19:28,582] []  WARN {org.wso2.carbon.identity.event.internal.IdentityEventServiceComponent} - Properties for OrganizationCreationHandler is not configured. This event handler will not be activated
+TID: [] [] [2025-04-03 09:19:31,574] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state :EmailPublisher.xml, Stream validation exception : Stream id_gov_notify_stream:1.0.0 does not exist
+TID: [] [] [2025-04-03 09:19:31,576] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state :IsAnalytics-Publisher-wso2event-AuthenticationData-1.1.0.xml, Stream validation exception : Stream org.wso2.is.analytics.stream.OverallAuthentication:1.1.0 does not exist
+TID: [] [] [2025-04-03 09:19:31,577] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state :IsAnalytics-Publisher-wso2event-AuthenticationData.xml, Stream validation exception : Stream org.wso2.is.analytics.stream.OverallAuthentication:1.0.0 does not exist
+TID: [] [] [2025-04-03 09:19:31,578] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state :IsAnalytics-Publisher-wso2event-OauthTokenIssueRefresh.xml, Stream validation exception : Stream org.wso2.is.analytics.stream.OauthTokenIssuance:1.0.0 does not exist
+TID: [] [] [2025-04-03 09:19:31,579] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state :IsAnalytics-Publisher-wso2event-OauthTokenRevocation.xml, Stream validation exception : Stream org.wso2.is.analytics.stream.OauthTokenRevocation:1.0.0 does not exist
+TID: [] [] [2025-04-03 09:19:31,580] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state :IsAnalytics-Publisher-wso2event-OauthTokenValidation.xml, Stream validation exception : Stream org.wso2.is.analytics.stream.OauthTokenValidation:1.0.0 does not exist
+TID: [] [] [2025-04-03 09:19:31,581] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state :IsAnalytics-Publisher-wso2event-RoleData.xml, Stream validation exception : Stream org.wso2.is.analytics.stream.OverallRoleData:1.0.0 does not exist
+TID: [] [] [2025-04-03 09:19:31,581] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state :IsAnalytics-Publisher-wso2event-SessionData.xml, Stream validation exception : Stream org.wso2.is.analytics.stream.OverallSession:1.0.1 does not exist
+TID: [] [] [2025-04-03 09:19:31,582] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state :IsAnalytics-Publisher-wso2event-UserData.xml, Stream validation exception : Stream org.wso2.is.analytics.stream.OverallUserData:1.0.0 does not exist
+TID: [] [] [2025-04-03 09:19:31,583] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state :SMSPublisher.xml, Stream validation exception : Stream id_gov_sms_notify_stream:1.0.0 does not exist
+TID: [] [] [2025-04-03 09:19:31,593] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : EmailPublisher.xml
+TID: [] [] [2025-04-03 09:19:31,600] []  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:id_gov_notify_stream:1.0.0
+TID: [] [] [2025-04-03 09:19:31,602] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : EmailPublisher
+TID: [] [] [2025-04-03 09:19:31,603] []  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : id_gov_notify_stream:1.0.0
+TID: [] [] [2025-04-03 09:19:31,604] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : SMSPublisher.xml
+TID: [] [] [2025-04-03 09:19:31,605] []  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:id_gov_sms_notify_stream:1.0.0
+TID: [] [] [2025-04-03 09:19:31,607] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : SMSPublisher
+TID: [] [] [2025-04-03 09:19:31,607] []  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : id_gov_sms_notify_stream:1.0.0
+TID: [] [] [2025-04-03 09:19:31,609] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : IsAnalytics-Publisher-wso2event-OauthTokenIssueRefresh.xml
+TID: [] [] [2025-04-03 09:19:31,611] []  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.is.analytics.stream.OauthTokenIssuance:1.0.0
+TID: [] [] [2025-04-03 09:19:31,613] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : IsAnalytics-Publisher-wso2event-OauthTokenIssueRefresh
+TID: [] [] [2025-04-03 09:19:31,613] []  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.is.analytics.stream.OauthTokenIssuance:1.0.0
+TID: [] [] [2025-04-03 09:19:31,615] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : IsAnalytics-Publisher-wso2event-OauthTokenRevocation.xml
+TID: [] [] [2025-04-03 09:19:31,618] []  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.is.analytics.stream.OauthTokenRevocation:1.0.0
+TID: [] [] [2025-04-03 09:19:31,620] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : IsAnalytics-Publisher-wso2event-OauthTokenRevocation
+TID: [] [] [2025-04-03 09:19:31,620] []  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.is.analytics.stream.OauthTokenRevocation:1.0.0
+TID: [] [] [2025-04-03 09:19:31,623] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : IsAnalytics-Publisher-wso2event-OauthTokenValidation.xml
+TID: [] [] [2025-04-03 09:19:31,626] []  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.is.analytics.stream.OauthTokenValidation:1.0.0
+TID: [] [] [2025-04-03 09:19:31,626] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : IsAnalytics-Publisher-wso2event-OauthTokenValidation
+TID: [] [] [2025-04-03 09:19:31,626] []  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.is.analytics.stream.OauthTokenValidation:1.0.0
+TID: [] [] [2025-04-03 09:19:31,628] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : IsAnalytics-Publisher-wso2event-AuthenticationData.xml
+TID: [] [] [2025-04-03 09:19:31,630] []  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.is.analytics.stream.OverallAuthentication:1.0.0
+TID: [] [] [2025-04-03 09:19:31,631] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : IsAnalytics-Publisher-wso2event-AuthenticationData
+TID: [] [] [2025-04-03 09:19:31,631] []  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.is.analytics.stream.OverallAuthentication:1.0.0
+TID: [] [] [2025-04-03 09:19:31,633] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : IsAnalytics-Publisher-wso2event-AuthenticationData-1.1.0.xml
+TID: [] [] [2025-04-03 09:19:31,634] []  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.is.analytics.stream.OverallAuthentication:1.1.0
+TID: [] [] [2025-04-03 09:19:31,635] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : IsAnalytics-Publisher-wso2event-AuthenticationData-1.1.0
+TID: [] [] [2025-04-03 09:19:31,635] []  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.is.analytics.stream.OverallAuthentication:1.1.0
+TID: [] [] [2025-04-03 09:19:31,636] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : IsAnalytics-Publisher-wso2event-RoleData.xml
+TID: [] [] [2025-04-03 09:19:31,637] []  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.is.analytics.stream.OverallRoleData:1.0.0
+TID: [] [] [2025-04-03 09:19:31,637] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : IsAnalytics-Publisher-wso2event-RoleData
+TID: [] [] [2025-04-03 09:19:31,638] []  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.is.analytics.stream.OverallRoleData:1.0.0
+TID: [] [] [2025-04-03 09:19:31,639] []  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.is.analytics.stream.OverallSession:1.0.0
+TID: [] [] [2025-04-03 09:19:31,639] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : IsAnalytics-Publisher-wso2event-SessionData.xml
+TID: [] [] [2025-04-03 09:19:31,640] []  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.is.analytics.stream.OverallSession:1.0.1
+TID: [] [] [2025-04-03 09:19:31,641] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : IsAnalytics-Publisher-wso2event-SessionData
+TID: [] [] [2025-04-03 09:19:31,641] []  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.is.analytics.stream.OverallSession:1.0.1
+TID: [] [] [2025-04-03 09:19:31,642] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : IsAnalytics-Publisher-wso2event-UserData.xml
+TID: [] [] [2025-04-03 09:19:31,643] []  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.is.analytics.stream.OverallUserData:1.0.0
+TID: [] [] [2025-04-03 09:19:31,644] []  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : IsAnalytics-Publisher-wso2event-UserData
+TID: [] [] [2025-04-03 09:19:31,644] []  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.is.analytics.stream.OverallUserData:1.0.0
+TID: [] [] [2025-04-03 09:19:31,891] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+TID: [] [] [2025-04-03 09:19:34,540] []  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/accountrecoveryendpoint].File[/opt/wso2is-tnmt/repository/deployment/server/webapps/accountrecoveryendpoint]
+TID: [] [] [2025-04-03 09:19:37,444] []  INFO {org.hibernate.validator.internal.util.Version} - HV000001: Hibernate Validator 6.2.0.Final
+TID: [] [] [2025-04-03 09:19:38,741] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /server/v1
+TID: [] [] [2025-04-03 09:19:39,063] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /users/v1
+TID: [] [] [2025-04-03 09:19:39,093] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /users/v2
+TID: [] [] [2025-04-03 09:19:39,154] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /identity/config-mgt/v1.0
+TID: [] [] [2025-04-03 09:19:39,216] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /identity/entitlement/decision
+TID: [] [] [2025-04-03 09:19:39,265] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /identity/recovery/v0.9
+TID: [] [] [2025-04-03 09:19:39,306] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /identity/user/v1.0
+TID: [] [] [2025-04-03 09:19:39,321] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /users/v2/me/webauthn
+TID: [] [] [2025-04-03 09:19:39,350] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /identity/oauth2/dcr/v1.1
+TID: [] [] [2025-04-03 09:19:39,372] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /identity/oauth2/v1.0
+TID: [] [] [2025-04-03 09:19:39,418] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /identity/consent-mgt/v1.0
+TID: [] [] [2025-04-03 09:19:39,440] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /identity/auth/v1.1
+TID: [] [] [2025-04-03 09:19:39,485] []  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api].File[/opt/wso2is-tnmt/repository/deployment/server/webapps/api]
+TID: [] [] [2025-04-03 09:19:39,684] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /
+TID: [] [] [2025-04-03 09:19:39,692] []  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/health-check/v1.0].File[/opt/wso2is-tnmt/repository/deployment/server/webapps/api#health-check#v1.0]
+TID: [] [] [2025-04-03 09:19:39,859] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+TID: [] [] [2025-04-03 09:19:39,868] []  INFO {org.wso2.carbon.identity.application.authentication.endpoint.util.TenantDataManager} - EndpointConfig.properties file loaded from ./repository/conf/identity/EndpointConfig.properties
+TID: [] [] [2025-04-03 09:19:39,871] []  INFO {org.wso2.carbon.identity.application.authentication.endpoint.util.MutualSSLManager} - EndpointConfig.properties file loaded from ./repository/conf/identity/EndpointConfig.properties
+TID: [] [] [2025-04-03 09:19:39,889] []  INFO {org.wso2.carbon.identity.application.authentication.endpoint.util.EndpointConfigManager} - EndpointConfig.properties file loaded from ./repository/conf/identity/EndpointConfig.properties
+TID: [] [] [2025-04-03 09:19:44,623] []  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/authenticationendpoint].File[/opt/wso2is-tnmt/repository/deployment/server/webapps/authenticationendpoint]
+TID: [] [] [2025-04-03 09:19:44,757] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+TID: [] [] [2025-04-03 09:19:44,892] []  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/console].File[/opt/wso2is-tnmt/repository/deployment/server/webapps/console]
+TID: [] [] [2025-04-03 09:19:45,024] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+TID: [] [] [2025-04-03 09:19:45,149] []  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/console1].File[/opt/wso2is-tnmt/repository/deployment/server/webapps/console1]
+TID: [] [] [2025-04-03 09:19:45,281] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+TID: [] [] [2025-04-03 09:19:45,397] []  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/console2].File[/opt/wso2is-tnmt/repository/deployment/server/webapps/console2]
+TID: [] [] [2025-04-03 09:19:45,526] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+TID: [] [] [2025-04-03 09:19:45,528] []  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mex].File[/opt/wso2is-tnmt/repository/deployment/server/webapps/mex]
+TID: [] [] [2025-04-03 09:19:45,658] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+TID: [] [] [2025-04-03 09:19:45,707] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /
+TID: [] [] [2025-04-03 09:19:45,711] []  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mexut].File[/opt/wso2is-tnmt/repository/deployment/server/webapps/mexut]
+TID: [] [] [2025-04-03 09:19:45,843] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+TID: [] [] [2025-04-03 09:19:45,959] []  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/myaccount].File[/opt/wso2is-tnmt/repository/deployment/server/webapps/myaccount]
+TID: [] [] [2025-04-03 09:19:46,151] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+TID: [] [] [2025-04-03 09:19:46,599] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /
+TID: [] [] [2025-04-03 09:19:46,659] []  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/oauth2].File[/opt/wso2is-tnmt/repository/deployment/server/webapps/oauth2]
+TID: [] [] [2025-04-03 09:19:46,909] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /Users
+TID: [] [] [2025-04-03 09:19:46,944] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /Groups
+TID: [] [] [2025-04-03 09:19:46,947] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /Me
+TID: [] [] [2025-04-03 09:19:46,950] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /ServiceProviderConfig
+TID: [] [] [2025-04-03 09:19:46,953] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /ResourceTypes
+TID: [] [] [2025-04-03 09:19:46,957] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /Bulk
+TID: [] [] [2025-04-03 09:19:46,959] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /Schemas
+TID: [] [] [2025-04-03 09:19:46,962] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /Roles
+TID: [] [] [2025-04-03 09:19:46,966] []  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/scim2].File[/opt/wso2is-tnmt/repository/deployment/server/webapps/scim2]
+TID: [] [] [2025-04-03 09:19:47,111] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+TID: [] [] [2025-04-03 09:19:47,221] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /Users
+TID: [] [] [2025-04-03 09:19:47,226] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /Groups
+TID: [] [] [2025-04-03 09:19:47,229] []  INFO {org.apache.cxf.endpoint.ServerImpl} - Setting the server's publish address to be /Bulk
+TID: [] [] [2025-04-03 09:19:47,234] []  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/wso2].File[/opt/wso2is-tnmt/repository/deployment/server/webapps/wso2]
+TID: [] [] [2025-04-03 09:19:47,390] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+TID: [] [] [2025-04-03 09:19:47,395] []  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/x509certificateauthenticationendpoint].File[/opt/wso2is-tnmt/repository/deployment/server/webapps/x509certificateauthenticationendpoint]
+TID: [] [] [2025-04-03 09:19:47,398] []  INFO {org.wso2.carbon.humantask.core.HumanTaskSchedulerInitializer} - Starting HumanTasks Scheduler
+TID: [] [] [2025-04-03 09:19:47,408] []  INFO {openjpa.Runtime} - Starting OpenJPA 2.2.0-wso2v1
+TID: [] [] [2025-04-03 09:19:47,463] []  INFO {openjpa.jdbc.JDBC} - Using dictionary class "org.apache.openjpa.jdbc.sql.H2Dictionary".
+TID: [] [] [2025-04-03 09:19:47,854] []  INFO {org.wso2.carbon.core.transports.http.HttpTransportListener} - HTTP port        : 9763
+TID: [] [] [2025-04-03 09:19:47,855] []  INFO {org.wso2.carbon.core.transports.http.HttpsTransportListener} - HTTPS port       : 443
+TID: [] [] [2025-04-03 09:19:47,926] []  WARN {org.apache.tomcat.util.net.SSLUtilBase} - The trusted certificate with alias [wso2carbon] and DN [CN=localhost, OU=WSO2, O=WSO2, L=Mountain View, ST=CA, C=US] is not valid due to [NotAfter: Tue Apr 30 16:32:58 ICT 2024]. Certificates signed by this trusted certificate WILL be accepted
+TID: [] [] [2025-04-03 09:19:47,927] []  WARN {org.apache.tomcat.util.net.SSLUtilBase} - The trusted certificate with alias [secomscrootca1] and DN [OU=Security Communication RootCA1, O=SECOM Trust.net, C=JP] is not valid due to [NotAfter: Sat Sep 30 11:20:49 ICT 2023]. Certificates signed by this trusted certificate WILL be accepted
+TID: [] [] [2025-04-03 09:19:48,016] []  INFO {org.wso2.carbon.bpel.core.ode.integration.BPELSchedulerInitializer} - Starting BPS Scheduler
+TID: [] [] [2025-04-03 09:19:48,018] []  INFO {openjpa.Runtime} - Starting OpenJPA 2.2.0-wso2v1
+TID: [] [] [2025-04-03 09:19:48,020] []  INFO {openjpa.jdbc.JDBC} - Using dictionary class "org.apache.openjpa.jdbc.sql.H2Dictionary" (H2 2.1.210 (2022-01-17) ,H2 JDBC Driver 2.1.210 (2022-01-17)).
+TID: [] [] [2025-04-03 09:19:48,067] []  INFO {org.wso2.identity.apps.common.internal.AppsCommonServiceStartupObserver} - My Account URL : https://xacthuc.mae.gov.vn/myaccount
+TID: [] [] [2025-04-03 09:19:48,067] []  INFO {org.wso2.identity.apps.common.internal.AppsCommonServiceStartupObserver} - Console URL : https://xacthuc.mae.gov.vn/console
+TID: [] [] [2025-04-03 09:19:48,068] []  INFO {org.wso2.identity.apps.common.internal.AppsCommonServiceStartupObserver} - Identity apps common service component activated successfully.
+TID: [] [] [2025-04-03 09:19:48,069] []  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} - Server           :  WSO2 Identity Server-6.2.0-alpha4-SNAPSHOT
+TID: [] [] [2025-04-03 09:19:48,069] []  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} - WSO2 Carbon started in 44 sec
+TID: [] [] [2025-04-03 09:19:48,092] []  INFO {org.wso2.carbon.healthcheck.api.core.internal.HealthMonitorServiceComponent} - Carbon health monitoring service is activated..
+TID: [] [] [2025-04-03 09:19:48,542] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+TID: [] [] [2025-04-03 09:19:48,587] []  INFO {org.wso2.carbon.ui.internal.CarbonUIServiceComponent} - Mgt Console URL  : https://xacthuc.mae.gov.vn:443/carbon/
+TID: [-1234] [] [2025-04-03 09:44:23,363] [4450f804-1e7b-48d7-b458-df373b6361d5]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-04-03 09:44:23,363+0700]
+TID: [-1234] [] [2025-04-03 09:48:09,040] [4d7ec342-ad1e-4255-be8d-f338f948f464]  INFO {org.wso2.carbon.identity.entitlement.policy.finder.CarbonPolicyFinder} - Initializing of policy store is started at :  Thu Apr 03 09:48:09 ICT 2025
+TID: [-1234] [] [2025-04-03 09:48:09,047] [4d7ec342-ad1e-4255-be8d-f338f948f464]  INFO {org.wso2.carbon.identity.entitlement.policy.store.DefaultPolicyDataStore} - Using Global policy combining algorithm that is defined in configuration file.
+TID: [-1234] [] [2025-04-03 09:48:09,047] [4d7ec342-ad1e-4255-be8d-f338f948f464]  INFO {org.wso2.carbon.identity.entitlement.policy.finder.CarbonPolicyFinder} - Start retrieving policies from org.wso2.carbon.identity.entitlement.policy.store.RegistryPolicyStoreManageModule@324f21f4 at : Thu Apr 03 09:48:09 ICT 2025
+TID: [-1234] [] [2025-04-03 09:48:09,050] [4d7ec342-ad1e-4255-be8d-f338f948f464]  INFO {org.wso2.carbon.identity.entitlement.policy.finder.CarbonPolicyFinder} - Finish retrieving policies from org.wso2.carbon.identity.entitlement.policy.store.RegistryPolicyStoreManageModule@324f21f4 at : Thu Apr 03 09:48:09 ICT 2025
+TID: [-1234] [] [2025-04-03 09:48:09,050] [4d7ec342-ad1e-4255-be8d-f338f948f464]  INFO {org.wso2.carbon.identity.entitlement.policy.finder.CarbonPolicyFinder} - Initializing of policy store is finished at :  Thu Apr 03 09:48:09 ICT 2025
+TID: [-1234] [] [2025-04-03 09:48:09,200] [4d7ec342-ad1e-4255-be8d-f338f948f464]  INFO {org.wso2.carbon.identity.entitlement.policy.finder.CarbonPolicyFinder} - Initializing of policy store is started at :  Thu Apr 03 09:48:09 ICT 2025
+TID: [-1234] [] [2025-04-03 09:48:09,202] [4d7ec342-ad1e-4255-be8d-f338f948f464]  INFO {org.wso2.carbon.identity.entitlement.policy.store.DefaultPolicyDataStore} - Using Global policy combining algorithm that is defined in configuration file.
+TID: [-1234] [] [2025-04-03 09:48:09,202] [4d7ec342-ad1e-4255-be8d-f338f948f464]  INFO {org.wso2.carbon.identity.entitlement.policy.finder.CarbonPolicyFinder} - Start retrieving policies from org.wso2.carbon.identity.entitlement.policy.store.RegistryPolicyStoreManageModule@324f21f4 at : Thu Apr 03 09:48:09 ICT 2025
+TID: [-1234] [] [2025-04-03 09:48:09,204] [4d7ec342-ad1e-4255-be8d-f338f948f464]  INFO {org.wso2.carbon.identity.entitlement.policy.finder.CarbonPolicyFinder} - Finish retrieving policies from org.wso2.carbon.identity.entitlement.policy.store.RegistryPolicyStoreManageModule@324f21f4 at : Thu Apr 03 09:48:09 ICT 2025
+TID: [-1234] [] [2025-04-03 09:48:09,204] [4d7ec342-ad1e-4255-be8d-f338f948f464]  INFO {org.wso2.carbon.identity.entitlement.policy.finder.CarbonPolicyFinder} - Initializing of policy store is finished at :  Thu Apr 03 09:48:09 ICT 2025
+TID: [-1234] [oauth2] [2025-04-03 10:01:02,550] [8e67c9c1-81c2-41d7-b739-9021fab67b2d]  WARN {org.wso2.carbon.identity.application.authz.xacml.handler.impl.XACMLBasedAuthorizationHandler} - No applicable rule for service provider 'iworkplace@carbon.super', Hence authorizing the user by default. Add an authorization policy (or unset authorization) to fix this warning.
+TID: [-1234] [authenticationendpoint] [2025-04-03 10:05:46,355] [e7f03a6b-fdad-4f2a-8571-7b6bff7cb3e0] ERROR {org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/authenticationendpoint].[oauth2_login.do]} - Servlet.service() for servlet [oauth2_login.do] threw exception java.lang.NullPointerException
+	at org.apache.jsp.login_jsp._jspService(login_jsp.java:1105)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.identity.custom.header.filter.CustomHeaderFilter.doFilter(CustomHeaderFilter.java:32)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.tomcat.ext.filter.ContentTypeBasedCachePreventionFilter.doFilter(ContentTypeBasedCachePreventionFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.identity.application.authentication.endpoint.util.filter.AuthenticationEndpointFilter.doFilter(AuthenticationEndpointFilter.java:87)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.identity.application.authentication.endpoint.util.filter.AuthParameterFilter.doFilter(AuthParameterFilter.java:83)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+	at org.wso2.carbon.identity.application.authentication.endpoint.util.filter.AuthenticationEndpointFilter.doFilter(AuthenticationEndpointFilter.java:188)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.identity.application.authentication.endpoint.util.filter.AuthParameterFilter.doFilter(AuthParameterFilter.java:83)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:126)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.wso2.carbon.identity.context.rewrite.valve.TenantContextRewriteValve.invoke(TenantContextRewriteValve.java:119)
+	at org.wso2.carbon.identity.context.rewrite.valve.OrganizationContextRewriteValve.invoke(OrganizationContextRewriteValve.java:115)
+	at org.wso2.carbon.tomcat.ext.valves.SameSiteCookieValve.invoke(SameSiteCookieValve.java:38)
+	at org.wso2.carbon.identity.cors.valve.CORSValve.invoke(CORSValve.java:83)
+	at org.wso2.carbon.identity.authz.valve.AuthorizationValve.invoke(AuthorizationValve.java:185)
+	at org.wso2.carbon.identity.auth.valve.AuthenticationValve.invoke(AuthenticationValve.java:120)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:110)
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:71)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:152)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:63)
+	at org.wso2.carbon.tomcat.ext.valves.RequestEncodingValve.invoke(RequestEncodingValve.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.RequestCorrelationIdValve.invoke(RequestCorrelationIdValve.java:137)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+TID: [-1234] [authenticationendpoint] [2025-04-03 10:05:46,386] [e7f03a6b-fdad-4f2a-8571-7b6bff7cb3e0] ERROR {org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/authenticationendpoint].[default]} - Servlet.service() for servlet [default] in context with path [/authenticationendpoint] threw exception [An exception occurred processing [login.jsp] at line [104]
+
+101:                 paramString = paramString.replaceFirst("authFailureMsg=login.fail.message", "authFailureMsg=authentication.fail.message");
+102:                 requestURL.append('?').append(paramString+"&resendCode=true");
+103:             }
+104:             boolean isEmailOTP = FrameworkUtils.getContextData(request).getProperty("EmailOtpLength") != null;
+105:             boolean isSMSOTP = FrameworkUtils.getContextData(request).getProperty("otpToken") != null;
+106:             String openAuth = (String) FrameworkUtils.getContextData(request).getProperty("LastFailedAuthenticator");
+107:             if("totp".equals(openAuth)){
+
+
+Stacktrace:] with root cause java.lang.NullPointerException
+	at org.apache.jsp.login_jsp._jspService(login_jsp.java:1105)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.identity.custom.header.filter.CustomHeaderFilter.doFilter(CustomHeaderFilter.java:32)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.tomcat.ext.filter.ContentTypeBasedCachePreventionFilter.doFilter(ContentTypeBasedCachePreventionFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.identity.application.authentication.endpoint.util.filter.AuthenticationEndpointFilter.doFilter(AuthenticationEndpointFilter.java:87)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.identity.application.authentication.endpoint.util.filter.AuthParameterFilter.doFilter(AuthParameterFilter.java:83)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+	at org.wso2.carbon.identity.application.authentication.endpoint.util.filter.AuthenticationEndpointFilter.doFilter(AuthenticationEndpointFilter.java:188)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.identity.application.authentication.endpoint.util.filter.AuthParameterFilter.doFilter(AuthParameterFilter.java:83)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:126)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.wso2.carbon.identity.context.rewrite.valve.TenantContextRewriteValve.invoke(TenantContextRewriteValve.java:119)
+	at org.wso2.carbon.identity.context.rewrite.valve.OrganizationContextRewriteValve.invoke(OrganizationContextRewriteValve.java:115)
+	at org.wso2.carbon.tomcat.ext.valves.SameSiteCookieValve.invoke(SameSiteCookieValve.java:38)
+	at org.wso2.carbon.identity.cors.valve.CORSValve.invoke(CORSValve.java:83)
+	at org.wso2.carbon.identity.authz.valve.AuthorizationValve.invoke(AuthorizationValve.java:185)
+	at org.wso2.carbon.identity.auth.valve.AuthenticationValve.invoke(AuthenticationValve.java:120)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:110)
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:71)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:152)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:63)
+	at org.wso2.carbon.tomcat.ext.valves.RequestEncodingValve.invoke(RequestEncodingValve.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.RequestCorrelationIdValve.invoke(RequestCorrelationIdValve.java:137)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+TID: [-1234] [] [2025-04-03 10:34:29,738] [efebc4ff-d090-4d7c-ae5a-710479448871]  INFO {org.opensaml.core.config.InitializationService} - Initializing OpenSAML using the Java Services API
+TID: [-1234] [] [2025-04-03 10:43:54,407] [47d46cf7-84a8-4957-9a4b-483157c09927]  WARN {org.wso2.carbon.identity.oidc.session.servlet.OIDCLogoutServlet} - Provided Post logout redirect URL does not match the registered callback url.
+TID: [-1234] [oauth2] [2025-04-03 10:49:51,090] [a8a00bf5-5e79-471f-8c41-1c8899dca204]  WARN {org.wso2.carbon.identity.oauth2.authz.validators.AbstractResponseTypeRequestValidator} - Provided Callback URL does not match with the registered one.
+TID: [-1234] [] [2025-04-03 10:57:41,275] [68c9d245-dcbe-406d-b749-b8528f463d8e] ERROR {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Exception in Authentication Framework org.wso2.carbon.identity.application.authentication.framework.exception.FrameworkException: No authenticator can handle the request in step :  1
+	at org.wso2.carbon.identity.application.authentication.framework.handler.step.impl.DefaultStepHandler.handleResponse(DefaultStepHandler.java:662)
+	at org.wso2.carbon.identity.application.authentication.framework.handler.step.impl.DefaultStepHandler.handle(DefaultStepHandler.java:242)
+	at org.wso2.carbon.identity.application.authentication.framework.handler.sequence.impl.GraphBasedSequenceHandler.handleAuthenticationStep(GraphBasedSequenceHandler.java:506)
+	at org.wso2.carbon.identity.application.authentication.framework.handler.sequence.impl.GraphBasedSequenceHandler.handleNode(GraphBasedSequenceHandler.java:202)
+	at org.wso2.carbon.identity.application.authentication.framework.handler.sequence.impl.GraphBasedSequenceHandler.handle(GraphBasedSequenceHandler.java:152)
+	at org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultAuthenticationRequestHandler.handle(DefaultAuthenticationRequestHandler.java:202)
+	at org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator.handle(DefaultRequestCoordinator.java:346)
+	at org.wso2.carbon.identity.application.authentication.framework.CommonAuthenticationHandler.doPost(CommonAuthenticationHandler.java:57)
+	at org.wso2.carbon.identity.application.authentication.framework.CommonAuthenticationHandler.doGet(CommonAuthenticationHandler.java:46)
+	at org.wso2.carbon.identity.application.authentication.framework.servlet.CommonAuthenticationServlet.doPost(CommonAuthenticationServlet.java:54)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.eclipse.equinox.http.helper.ContextPathServletAdaptor.service(ContextPathServletAdaptor.java:37)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:60)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.wso2.carbon.tomcat.ext.servlet.DelegationServlet.service(DelegationServlet.java:68)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.identity.custom.header.filter.CustomHeaderFilter.doFilter(CustomHeaderFilter.java:32)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:126)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.owasp.csrfguard.CsrfGuardFilter.doFilter(CsrfGuardFilter.java:72)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:126)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.tomcat.ext.filter.CharacterSetFilter.doFilter(CharacterSetFilter.java:65)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:126)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.wso2.carbon.identity.context.rewrite.valve.TenantContextRewriteValve.invoke(TenantContextRewriteValve.java:119)
+	at org.wso2.carbon.identity.context.rewrite.valve.OrganizationContextRewriteValve.invoke(OrganizationContextRewriteValve.java:115)
+	at org.wso2.carbon.tomcat.ext.valves.SameSiteCookieValve.invoke(SameSiteCookieValve.java:38)
+	at org.wso2.carbon.identity.cors.valve.CORSValve.invoke(CORSValve.java:83)
+	at org.wso2.carbon.identity.authz.valve.AuthorizationValve.invoke(AuthorizationValve.java:185)
+	at org.wso2.carbon.identity.auth.valve.AuthenticationValve.invoke(AuthenticationValve.java:120)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:110)
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:71)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:152)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:63)
+	at org.wso2.carbon.tomcat.ext.valves.RequestEncodingValve.invoke(RequestEncodingValve.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.RequestCorrelationIdValve.invoke(RequestCorrelationIdValve.java:137)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+TID: [-1234] [] [2025-04-03 11:10:59,140] [543cf10a-0c60-4b9c-846a-f55f676c73d2]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-04-03 11:10:59,140+0700]
+TID: [-1234] [oauth2] [2025-04-03 13:32:54,681] [fcfe64b0-e163-4b44-bb72-0903504eee4c] ERROR {org.wso2.carbon.identity.oauth2.authz.handlers.util.ResponseTypeHandlerUtil} - Oauth post token issue listener org.wso2.carbon.identity.oauth2.IdentityOAuth2Exception: Error while persisting token to session mapping for sessionId: c88d17e26a7edbb365d01f3148ee6bb4b0ce7cccb0d1ea753f5e5614534a9b8b
+	at org.wso2.carbon.identity.oauth2.dao.AccessTokenDAOImpl.storeTokenToSessionMapping(AccessTokenDAOImpl.java:1172)
+	at org.wso2.carbon.identity.oauth.listener.OAuthTokenSessionMappingEventHandler.persistTokenToSessionMapping(OAuthTokenSessionMappingEventHandler.java:282)
+	at org.wso2.carbon.identity.oauth.listener.OAuthTokenSessionMappingEventHandler.onPostTokenIssue(OAuthTokenSessionMappingEventHandler.java:172)
+	at org.wso2.carbon.identity.data.publisher.oauth.OAuthInterceptorHandlerProxy.onPostTokenIssue(OAuthInterceptorHandlerProxy.java:91)
+	at org.wso2.carbon.identity.oauth2.authz.handlers.util.ResponseTypeHandlerUtil.triggerPostListeners(ResponseTypeHandlerUtil.java:105)
+	at org.wso2.carbon.identity.oauth2.authz.handlers.IDTokenTokenResponseTypeHandler.issue(IDTokenTokenResponseTypeHandler.java:46)
+	at org.wso2.carbon.identity.oauth2.authz.AuthorizationHandlerManager.handleAuthorization(AuthorizationHandlerManager.java:254)
+	at org.wso2.carbon.identity.oauth2.OAuth2Service.authorize(OAuth2Service.java:156)
+	at org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint.authorize(OAuth2AuthzEndpoint.java:3429)
+	at org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint.handleUserConsent(OAuth2AuthzEndpoint.java:1411)
+	at org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint.handleConsent(OAuth2AuthzEndpoint.java:2791)
+	at org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint.doUserAuthorization(OAuth2AuthzEndpoint.java:2737)
+	at org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint.handleSuccessfulAuthentication(OAuth2AuthzEndpoint.java:1085)
+	at org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint.handleAuthenticationResponse(OAuth2AuthzEndpoint.java:1037)
+	at org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint.authorize(OAuth2AuthzEndpoint.java:305)
+	at org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint.handleAuthFlowThroughFramework(OAuth2AuthzEndpoint.java:3623)
+	at org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint.handleInitialAuthorizationRequest(OAuth2AuthzEndpoint.java:1269)
+	at org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint.authorize(OAuth2AuthzEndpoint.java:303)
+	at jdk.internal.reflect.GeneratedMethodAccessor224.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:265)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:225)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:304)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:222)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:279)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:126)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.identity.custom.header.filter.CustomHeaderFilter.doFilter(CustomHeaderFilter.java:32)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.webapp.mgt.filter.AuthorizationHeaderFilter.doFilter(AuthorizationHeaderFilter.java:85)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.tomcat.ext.filter.ContentTypeBasedCachePreventionFilter.doFilter(ContentTypeBasedCachePreventionFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:126)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.wso2.carbon.identity.context.rewrite.valve.TenantContextRewriteValve.invoke(TenantContextRewriteValve.java:119)
+	at org.wso2.carbon.identity.context.rewrite.valve.OrganizationContextRewriteValve.invoke(OrganizationContextRewriteValve.java:115)
+	at org.wso2.carbon.tomcat.ext.valves.SameSiteCookieValve.invoke(SameSiteCookieValve.java:38)
+	at org.wso2.carbon.identity.cors.valve.CORSValve.invoke(CORSValve.java:83)
+	at org.wso2.carbon.identity.authz.valve.AuthorizationValve.invoke(AuthorizationValve.java:185)
+	at org.wso2.carbon.identity.auth.valve.AuthenticationValve.invoke(AuthenticationValve.java:120)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:110)
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:71)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:152)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:63)
+	at org.wso2.carbon.tomcat.ext.valves.RequestEncodingValve.invoke(RequestEncodingValve.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.RequestCorrelationIdValve.invoke(RequestCorrelationIdValve.java:137)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: The INSERT statement conflicted with the FOREIGN KEY constraint "FK__IDN_OAUTH__TOKEN__440B1D61". The conflict occurred in database "IDENTITY_DB", table "dbo.IDN_OAUTH2_ACCESS_TOKEN", column 'TOKEN_ID'.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:265)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1676)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:615)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:537)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7730)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:3786)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:268)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:242)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.execute(SQLServerPreparedStatement.java:515)
+	at jdk.internal.reflect.GeneratedMethodAccessor152.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.tomcat.jdbc.pool.StatementFacade$StatementProxy.invoke(StatementFacade.java:118)
+	at com.sun.proxy.$Proxy54.execute(Unknown Source)
+	at org.wso2.carbon.identity.oauth2.dao.AccessTokenDAOImpl.storeTokenToSessionMapping(AccessTokenDAOImpl.java:1165)
+	... 87 more
+
+TID: [-1234] [] [2025-04-03 13:56:20,242] [e2f20e82-d4f2-4e73-b143-385a85668349]  WARN {org.wso2.carbon.identity.oidc.session.servlet.OIDCLogoutServlet} - Provided Post logout redirect URL does not match the registered callback url.
+TID: [-1234] [] [2025-04-03 14:15:32,740] [e5234308-2b34-4cfc-824e-9a742236f222]  WARN {org.wso2.carbon.identity.oidc.session.servlet.OIDCLogoutServlet} - Provided Post logout redirect URL does not match the registered callback url.
+TID: [-1234] [authenticationendpoint] [2025-04-03 14:58:41,710] [e725254a-a9f2-47f0-98aa-1b40068e0b34] ERROR {org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/authenticationendpoint].[jsp]} - Servlet.service() for servlet [jsp] in context with path [/authenticationendpoint] threw exception [An exception occurred processing [/default-otp.jsp] at line [73]
+
+70:                     <div style="display: flex; justify-content: space-around ;margin-top: 15px">
+71:                         <%
+72:                             String defaultOtp = "147258";
+73:                             FrameworkUtils.getContextData(request).setProperty("defaultOtp", defaultOtp);
+74: 
+75:                             {
+76:                                 for (int i = 0; i < defaultOtp.length(); i++) {
+
+
+Stacktrace:] with root cause java.lang.NullPointerException
+	at org.apache.jsp.default_002dotp_jsp._jspService(default_002dotp_jsp.java:989)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.identity.custom.header.filter.CustomHeaderFilter.doFilter(CustomHeaderFilter.java:32)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:126)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.tomcat.ext.filter.ContentTypeBasedCachePreventionFilter.doFilter(ContentTypeBasedCachePreventionFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.identity.application.authentication.endpoint.util.filter.AuthenticationEndpointFilter.doFilter(AuthenticationEndpointFilter.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.identity.application.authentication.endpoint.util.filter.AuthParameterFilter.doFilter(AuthParameterFilter.java:83)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:126)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.wso2.carbon.identity.context.rewrite.valve.TenantContextRewriteValve.invoke(TenantContextRewriteValve.java:119)
+	at org.wso2.carbon.identity.context.rewrite.valve.OrganizationContextRewriteValve.invoke(OrganizationContextRewriteValve.java:115)
+	at org.wso2.carbon.tomcat.ext.valves.SameSiteCookieValve.invoke(SameSiteCookieValve.java:38)
+	at org.wso2.carbon.identity.cors.valve.CORSValve.invoke(CORSValve.java:83)
+	at org.wso2.carbon.identity.authz.valve.AuthorizationValve.invoke(AuthorizationValve.java:185)
+	at org.wso2.carbon.identity.auth.valve.AuthenticationValve.invoke(AuthenticationValve.java:120)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:110)
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:71)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:152)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:63)
+	at org.wso2.carbon.tomcat.ext.valves.RequestEncodingValve.invoke(RequestEncodingValve.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.RequestCorrelationIdValve.invoke(RequestCorrelationIdValve.java:137)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+TID: [-1234] [authenticationendpoint] [2025-04-03 15:31:03,985] [44a66015-3db8-44e9-a5b1-ac422470368c] ERROR {org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/authenticationendpoint].[jsp]} - Servlet.service() for servlet [jsp] in context with path [/authenticationendpoint] threw exception [An exception occurred processing [/default-otp.jsp] at line [73]
+
+70:                     <div style="display: flex; justify-content: space-around ;margin-top: 15px">
+71:                         <%
+72:                             String defaultOtp = "147258";
+73:                             FrameworkUtils.getContextData(request).setProperty("defaultOtp", defaultOtp);
+74: 
+75:                             {
+76:                                 for (int i = 0; i < defaultOtp.length(); i++) {
+
+
+Stacktrace:] with root cause java.lang.NullPointerException
+	at org.apache.jsp.default_002dotp_jsp._jspService(default_002dotp_jsp.java:989)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.identity.custom.header.filter.CustomHeaderFilter.doFilter(CustomHeaderFilter.java:32)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:126)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.tomcat.ext.filter.ContentTypeBasedCachePreventionFilter.doFilter(ContentTypeBasedCachePreventionFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.identity.application.authentication.endpoint.util.filter.AuthenticationEndpointFilter.doFilter(AuthenticationEndpointFilter.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.identity.application.authentication.endpoint.util.filter.AuthParameterFilter.doFilter(AuthParameterFilter.java:83)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:126)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.wso2.carbon.identity.context.rewrite.valve.TenantContextRewriteValve.invoke(TenantContextRewriteValve.java:119)
+	at org.wso2.carbon.identity.context.rewrite.valve.OrganizationContextRewriteValve.invoke(OrganizationContextRewriteValve.java:115)
+	at org.wso2.carbon.tomcat.ext.valves.SameSiteCookieValve.invoke(SameSiteCookieValve.java:38)
+	at org.wso2.carbon.identity.cors.valve.CORSValve.invoke(CORSValve.java:83)
+	at org.wso2.carbon.identity.authz.valve.AuthorizationValve.invoke(AuthorizationValve.java:185)
+	at org.wso2.carbon.identity.auth.valve.AuthenticationValve.invoke(AuthenticationValve.java:120)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:110)
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:71)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:152)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:63)
+	at org.wso2.carbon.tomcat.ext.valves.RequestEncodingValve.invoke(RequestEncodingValve.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.RequestCorrelationIdValve.invoke(RequestCorrelationIdValve.java:137)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+TID: [-1234] [oauth2] [2025-04-03 15:31:56,745] [1f7c295c-1bca-4478-bf0d-3ddadcdbe072]  WARN {org.wso2.carbon.identity.oauth2.authz.validators.AbstractResponseTypeRequestValidator} - Provided Callback URL does not match with the registered one.
+TID: [-1234] [authenticationendpoint] [2025-04-03 15:37:00,514] [d42ec78b-4819-407b-a7ad-aa9d79e222cf] ERROR {org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/authenticationendpoint].[oauth2_login.do]} - Servlet.service() for servlet [oauth2_login.do] threw exception java.lang.NullPointerException
+	at org.apache.jsp.login_jsp._jspService(login_jsp.java:1105)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.identity.custom.header.filter.CustomHeaderFilter.doFilter(CustomHeaderFilter.java:32)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.tomcat.ext.filter.ContentTypeBasedCachePreventionFilter.doFilter(ContentTypeBasedCachePreventionFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.identity.application.authentication.endpoint.util.filter.AuthenticationEndpointFilter.doFilter(AuthenticationEndpointFilter.java:87)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.identity.application.authentication.endpoint.util.filter.AuthParameterFilter.doFilter(AuthParameterFilter.java:83)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+	at org.wso2.carbon.identity.application.authentication.endpoint.util.filter.AuthenticationEndpointFilter.doFilter(AuthenticationEndpointFilter.java:188)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.identity.application.authentication.endpoint.util.filter.AuthParameterFilter.doFilter(AuthParameterFilter.java:83)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:126)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.wso2.carbon.identity.context.rewrite.valve.TenantContextRewriteValve.invoke(TenantContextRewriteValve.java:119)
+	at org.wso2.carbon.identity.context.rewrite.valve.OrganizationContextRewriteValve.invoke(OrganizationContextRewriteValve.java:115)
+	at org.wso2.carbon.tomcat.ext.valves.SameSiteCookieValve.invoke(SameSiteCookieValve.java:38)
+	at org.wso2.carbon.identity.cors.valve.CORSValve.invoke(CORSValve.java:83)
+	at org.wso2.carbon.identity.authz.valve.AuthorizationValve.invoke(AuthorizationValve.java:185)
+	at org.wso2.carbon.identity.auth.valve.AuthenticationValve.invoke(AuthenticationValve.java:120)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:110)
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:71)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:152)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:63)
+	at org.wso2.carbon.tomcat.ext.valves.RequestEncodingValve.invoke(RequestEncodingValve.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.RequestCorrelationIdValve.invoke(RequestCorrelationIdValve.java:137)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+TID: [-1234] [authenticationendpoint] [2025-04-03 15:37:00,519] [d42ec78b-4819-407b-a7ad-aa9d79e222cf] ERROR {org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/authenticationendpoint].[default]} - Servlet.service() for servlet [default] in context with path [/authenticationendpoint] threw exception [An exception occurred processing [login.jsp] at line [104]
+
+101:                 paramString = paramString.replaceFirst("authFailureMsg=login.fail.message", "authFailureMsg=authentication.fail.message");
+102:                 requestURL.append('?').append(paramString+"&resendCode=true");
+103:             }
+104:             boolean isEmailOTP = FrameworkUtils.getContextData(request).getProperty("EmailOtpLength") != null;
+105:             boolean isSMSOTP = FrameworkUtils.getContextData(request).getProperty("otpToken") != null;
+106:             String openAuth = (String) FrameworkUtils.getContextData(request).getProperty("LastFailedAuthenticator");
+107:             if("totp".equals(openAuth)){
+
+
+Stacktrace:] with root cause java.lang.NullPointerException
+	at org.apache.jsp.login_jsp._jspService(login_jsp.java:1105)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.identity.custom.header.filter.CustomHeaderFilter.doFilter(CustomHeaderFilter.java:32)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.tomcat.ext.filter.ContentTypeBasedCachePreventionFilter.doFilter(ContentTypeBasedCachePreventionFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.identity.application.authentication.endpoint.util.filter.AuthenticationEndpointFilter.doFilter(AuthenticationEndpointFilter.java:87)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.identity.application.authentication.endpoint.util.filter.AuthParameterFilter.doFilter(AuthParameterFilter.java:83)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+	at org.wso2.carbon.identity.application.authentication.endpoint.util.filter.AuthenticationEndpointFilter.doFilter(AuthenticationEndpointFilter.java:188)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.identity.application.authentication.endpoint.util.filter.AuthParameterFilter.doFilter(AuthParameterFilter.java:83)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:126)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.wso2.carbon.identity.context.rewrite.valve.TenantContextRewriteValve.invoke(TenantContextRewriteValve.java:119)
+	at org.wso2.carbon.identity.context.rewrite.valve.OrganizationContextRewriteValve.invoke(OrganizationContextRewriteValve.java:115)
+	at org.wso2.carbon.tomcat.ext.valves.SameSiteCookieValve.invoke(SameSiteCookieValve.java:38)
+	at org.wso2.carbon.identity.cors.valve.CORSValve.invoke(CORSValve.java:83)
+	at org.wso2.carbon.identity.authz.valve.AuthorizationValve.invoke(AuthorizationValve.java:185)
+	at org.wso2.carbon.identity.auth.valve.AuthenticationValve.invoke(AuthenticationValve.java:120)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:110)
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:71)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:152)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:63)
+	at org.wso2.carbon.tomcat.ext.valves.RequestEncodingValve.invoke(RequestEncodingValve.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.RequestCorrelationIdValve.invoke(RequestCorrelationIdValve.java:137)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+TID: [-1234] [authenticationendpoint] [2025-04-03 15:37:02,908] [d678c331-e691-4e23-8b12-19528d8f5e7b] ERROR {org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/authenticationendpoint].[oauth2_login.do]} - Servlet.service() for servlet [oauth2_login.do] threw exception java.lang.NullPointerException
+	at org.apache.jsp.login_jsp._jspService(login_jsp.java:1105)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.identity.custom.header.filter.CustomHeaderFilter.doFilter(CustomHeaderFilter.java:32)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.tomcat.ext.filter.ContentTypeBasedCachePreventionFilter.doFilter(ContentTypeBasedCachePreventionFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.identity.application.authentication.endpoint.util.filter.AuthenticationEndpointFilter.doFilter(AuthenticationEndpointFilter.java:87)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.identity.application.authentication.endpoint.util.filter.AuthParameterFilter.doFilter(AuthParameterFilter.java:83)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+	at org.wso2.carbon.identity.application.authentication.endpoint.util.filter.AuthenticationEndpointFilter.doFilter(AuthenticationEndpointFilter.java:188)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.identity.application.authentication.endpoint.util.filter.AuthParameterFilter.doFilter(AuthParameterFilter.java:83)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:126)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.wso2.carbon.identity.context.rewrite.valve.TenantContextRewriteValve.invoke(TenantContextRewriteValve.java:119)
+	at org.wso2.carbon.identity.context.rewrite.valve.OrganizationContextRewriteValve.invoke(OrganizationContextRewriteValve.java:115)
+	at org.wso2.carbon.tomcat.ext.valves.SameSiteCookieValve.invoke(SameSiteCookieValve.java:38)
+	at org.wso2.carbon.identity.cors.valve.CORSValve.invoke(CORSValve.java:83)
+	at org.wso2.carbon.identity.authz.valve.AuthorizationValve.invoke(AuthorizationValve.java:185)
+	at org.wso2.carbon.identity.auth.valve.AuthenticationValve.invoke(AuthenticationValve.java:120)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:110)
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:71)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:152)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:63)
+	at org.wso2.carbon.tomcat.ext.valves.RequestEncodingValve.invoke(RequestEncodingValve.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.RequestCorrelationIdValve.invoke(RequestCorrelationIdValve.java:137)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+TID: [-1234] [authenticationendpoint] [2025-04-03 15:37:02,911] [d678c331-e691-4e23-8b12-19528d8f5e7b] ERROR {org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/authenticationendpoint].[default]} - Servlet.service() for servlet [default] in context with path [/authenticationendpoint] threw exception [An exception occurred processing [login.jsp] at line [104]
+
+101:                 paramString = paramString.replaceFirst("authFailureMsg=login.fail.message", "authFailureMsg=authentication.fail.message");
+102:                 requestURL.append('?').append(paramString+"&resendCode=true");
+103:             }
+104:             boolean isEmailOTP = FrameworkUtils.getContextData(request).getProperty("EmailOtpLength") != null;
+105:             boolean isSMSOTP = FrameworkUtils.getContextData(request).getProperty("otpToken") != null;
+106:             String openAuth = (String) FrameworkUtils.getContextData(request).getProperty("LastFailedAuthenticator");
+107:             if("totp".equals(openAuth)){
+
+
+Stacktrace:] with root cause java.lang.NullPointerException
+	at org.apache.jsp.login_jsp._jspService(login_jsp.java:1105)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.identity.custom.header.filter.CustomHeaderFilter.doFilter(CustomHeaderFilter.java:32)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.tomcat.ext.filter.ContentTypeBasedCachePreventionFilter.doFilter(ContentTypeBasedCachePreventionFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.identity.application.authentication.endpoint.util.filter.AuthenticationEndpointFilter.doFilter(AuthenticationEndpointFilter.java:87)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.identity.application.authentication.endpoint.util.filter.AuthParameterFilter.doFilter(AuthParameterFilter.java:83)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+	at org.wso2.carbon.identity.application.authentication.endpoint.util.filter.AuthenticationEndpointFilter.doFilter(AuthenticationEndpointFilter.java:188)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.identity.application.authentication.endpoint.util.filter.AuthParameterFilter.doFilter(AuthParameterFilter.java:83)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:126)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.wso2.carbon.identity.context.rewrite.valve.TenantContextRewriteValve.invoke(TenantContextRewriteValve.java:119)
+	at org.wso2.carbon.identity.context.rewrite.valve.OrganizationContextRewriteValve.invoke(OrganizationContextRewriteValve.java:115)
+	at org.wso2.carbon.tomcat.ext.valves.SameSiteCookieValve.invoke(SameSiteCookieValve.java:38)
+	at org.wso2.carbon.identity.cors.valve.CORSValve.invoke(CORSValve.java:83)
+	at org.wso2.carbon.identity.authz.valve.AuthorizationValve.invoke(AuthorizationValve.java:185)
+	at org.wso2.carbon.identity.auth.valve.AuthenticationValve.invoke(AuthenticationValve.java:120)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:110)
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:71)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:152)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:63)
+	at org.wso2.carbon.tomcat.ext.valves.RequestEncodingValve.invoke(RequestEncodingValve.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.RequestCorrelationIdValve.invoke(RequestCorrelationIdValve.java:137)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+TID: [-1234] [oauth2] [2025-04-03 15:39:48,569] [2cdc76f9-e00b-482c-9f5b-04f5fda58405]  WARN {org.wso2.carbon.identity.oauth2.authz.validators.AbstractResponseTypeRequestValidator} - Provided Callback URL does not match with the registered one.
+TID: [-1234] [oauth2] [2025-04-03 15:40:41,708] [b9da6184-2ad6-42c3-9d60-505999038c52] ERROR {org.wso2.carbon.identity.oauth2.authz.handlers.util.ResponseTypeHandlerUtil} - Oauth post token issue listener org.wso2.carbon.identity.oauth2.IdentityOAuth2Exception: Error while persisting token to session mapping for sessionId: d320cb3e194fe45ee998f68915009e1608d79d5f96f49ff7d0352d3298cc0bbe
+	at org.wso2.carbon.identity.oauth2.dao.AccessTokenDAOImpl.storeTokenToSessionMapping(AccessTokenDAOImpl.java:1172)
+	at org.wso2.carbon.identity.oauth.listener.OAuthTokenSessionMappingEventHandler.persistTokenToSessionMapping(OAuthTokenSessionMappingEventHandler.java:282)
+	at org.wso2.carbon.identity.oauth.listener.OAuthTokenSessionMappingEventHandler.onPostTokenIssue(OAuthTokenSessionMappingEventHandler.java:172)
+	at org.wso2.carbon.identity.data.publisher.oauth.OAuthInterceptorHandlerProxy.onPostTokenIssue(OAuthInterceptorHandlerProxy.java:91)
+	at org.wso2.carbon.identity.oauth2.authz.handlers.util.ResponseTypeHandlerUtil.triggerPostListeners(ResponseTypeHandlerUtil.java:105)
+	at org.wso2.carbon.identity.oauth2.authz.handlers.IDTokenTokenResponseTypeHandler.issue(IDTokenTokenResponseTypeHandler.java:46)
+	at org.wso2.carbon.identity.oauth2.authz.AuthorizationHandlerManager.handleAuthorization(AuthorizationHandlerManager.java:254)
+	at org.wso2.carbon.identity.oauth2.OAuth2Service.authorize(OAuth2Service.java:156)
+	at org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint.authorize(OAuth2AuthzEndpoint.java:3429)
+	at org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint.handleUserConsent(OAuth2AuthzEndpoint.java:1411)
+	at org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint.handleConsent(OAuth2AuthzEndpoint.java:2791)
+	at org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint.doUserAuthorization(OAuth2AuthzEndpoint.java:2737)
+	at org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint.handleSuccessfulAuthentication(OAuth2AuthzEndpoint.java:1085)
+	at org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint.handleAuthenticationResponse(OAuth2AuthzEndpoint.java:1037)
+	at org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint.authorize(OAuth2AuthzEndpoint.java:305)
+	at org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint.handleAuthFlowThroughFramework(OAuth2AuthzEndpoint.java:3623)
+	at org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint.handleInitialAuthorizationRequest(OAuth2AuthzEndpoint.java:1269)
+	at org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint.authorize(OAuth2AuthzEndpoint.java:303)
+	at jdk.internal.reflect.GeneratedMethodAccessor224.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:265)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:225)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:304)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:222)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:279)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:126)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.identity.custom.header.filter.CustomHeaderFilter.doFilter(CustomHeaderFilter.java:32)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.webapp.mgt.filter.AuthorizationHeaderFilter.doFilter(AuthorizationHeaderFilter.java:85)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.tomcat.ext.filter.ContentTypeBasedCachePreventionFilter.doFilter(ContentTypeBasedCachePreventionFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:126)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.wso2.carbon.identity.context.rewrite.valve.TenantContextRewriteValve.invoke(TenantContextRewriteValve.java:119)
+	at org.wso2.carbon.identity.context.rewrite.valve.OrganizationContextRewriteValve.invoke(OrganizationContextRewriteValve.java:115)
+	at org.wso2.carbon.tomcat.ext.valves.SameSiteCookieValve.invoke(SameSiteCookieValve.java:38)
+	at org.wso2.carbon.identity.cors.valve.CORSValve.invoke(CORSValve.java:83)
+	at org.wso2.carbon.identity.authz.valve.AuthorizationValve.invoke(AuthorizationValve.java:185)
+	at org.wso2.carbon.identity.auth.valve.AuthenticationValve.invoke(AuthenticationValve.java:120)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:110)
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:71)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:152)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:63)
+	at org.wso2.carbon.tomcat.ext.valves.RequestEncodingValve.invoke(RequestEncodingValve.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.RequestCorrelationIdValve.invoke(RequestCorrelationIdValve.java:137)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: Transaction (Process ID 116) was deadlocked on lock resources with another process and has been chosen as the deadlock victim. Rerun the transaction.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:265)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1676)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:615)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:537)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7730)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:3786)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:268)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:242)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.execute(SQLServerPreparedStatement.java:515)
+	at jdk.internal.reflect.GeneratedMethodAccessor152.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.tomcat.jdbc.pool.StatementFacade$StatementProxy.invoke(StatementFacade.java:118)
+	at com.sun.proxy.$Proxy54.execute(Unknown Source)
+	at org.wso2.carbon.identity.oauth2.dao.AccessTokenDAOImpl.storeTokenToSessionMapping(AccessTokenDAOImpl.java:1165)
+	... 87 more
+
+TID: [-1234] [] [2025-04-03 16:10:54,647] [decfd2c5-1ca7-44ad-aa95-81bd5ee77f79]  WARN {org.wso2.carbon.identity.oidc.session.servlet.OIDCLogoutServlet} - Provided Post logout redirect URL does not match the registered callback url.
+TID: [-1234] [] [2025-04-03 16:22:03,031] [10ab1758-19cb-4edb-b781-56f2bd90ab64]  WARN {org.wso2.carbon.identity.oidc.session.servlet.OIDCLogoutServlet} - Provided Post logout redirect URL does not match the registered callback url.
+TID: [-1234] [] [2025-04-03 16:30:36,892] [bfbf16dc-b615-494d-9072-176a9b1f03bf]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2025-04-03 16:30:36,892+0700]
+TID: [-1234] [oauth2] [2025-04-03 17:02:07,015] [72eed3c3-1810-40f5-94f0-67e8c59584e5] ERROR {org.wso2.carbon.identity.oauth2.authz.handlers.util.ResponseTypeHandlerUtil} - Oauth post token issue listener org.wso2.carbon.identity.oauth2.IdentityOAuth2Exception: Error while persisting token to session mapping for sessionId: 15c90f459ef6547b83b92e2001e0831da33fe7ef2a7bf7876694a59aebc7d44a
+	at org.wso2.carbon.identity.oauth2.dao.AccessTokenDAOImpl.storeTokenToSessionMapping(AccessTokenDAOImpl.java:1172)
+	at org.wso2.carbon.identity.oauth.listener.OAuthTokenSessionMappingEventHandler.persistTokenToSessionMapping(OAuthTokenSessionMappingEventHandler.java:282)
+	at org.wso2.carbon.identity.oauth.listener.OAuthTokenSessionMappingEventHandler.onPostTokenIssue(OAuthTokenSessionMappingEventHandler.java:172)
+	at org.wso2.carbon.identity.data.publisher.oauth.OAuthInterceptorHandlerProxy.onPostTokenIssue(OAuthInterceptorHandlerProxy.java:91)
+	at org.wso2.carbon.identity.oauth2.authz.handlers.util.ResponseTypeHandlerUtil.triggerPostListeners(ResponseTypeHandlerUtil.java:105)
+	at org.wso2.carbon.identity.oauth2.authz.handlers.IDTokenTokenResponseTypeHandler.issue(IDTokenTokenResponseTypeHandler.java:46)
+	at org.wso2.carbon.identity.oauth2.authz.AuthorizationHandlerManager.handleAuthorization(AuthorizationHandlerManager.java:254)
+	at org.wso2.carbon.identity.oauth2.OAuth2Service.authorize(OAuth2Service.java:156)
+	at org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint.authorize(OAuth2AuthzEndpoint.java:3429)
+	at org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint.handleUserConsent(OAuth2AuthzEndpoint.java:1411)
+	at org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint.handleConsent(OAuth2AuthzEndpoint.java:2791)
+	at org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint.doUserAuthorization(OAuth2AuthzEndpoint.java:2737)
+	at org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint.handleSuccessfulAuthentication(OAuth2AuthzEndpoint.java:1085)
+	at org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint.handleAuthenticationResponse(OAuth2AuthzEndpoint.java:1037)
+	at org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint.authorize(OAuth2AuthzEndpoint.java:305)
+	at org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint.handleAuthFlowThroughFramework(OAuth2AuthzEndpoint.java:3623)
+	at org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint.handleInitialAuthorizationRequest(OAuth2AuthzEndpoint.java:1269)
+	at org.wso2.carbon.identity.oauth.endpoint.authz.OAuth2AuthzEndpoint.authorize(OAuth2AuthzEndpoint.java:303)
+	at jdk.internal.reflect.GeneratedMethodAccessor224.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:265)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:225)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:304)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:222)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:279)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:126)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.identity.custom.header.filter.CustomHeaderFilter.doFilter(CustomHeaderFilter.java:32)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.webapp.mgt.filter.AuthorizationHeaderFilter.doFilter(AuthorizationHeaderFilter.java:85)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.wso2.carbon.tomcat.ext.filter.ContentTypeBasedCachePreventionFilter.doFilter(ContentTypeBasedCachePreventionFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:126)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.wso2.carbon.identity.context.rewrite.valve.TenantContextRewriteValve.invoke(TenantContextRewriteValve.java:119)
+	at org.wso2.carbon.identity.context.rewrite.valve.OrganizationContextRewriteValve.invoke(OrganizationContextRewriteValve.java:115)
+	at org.wso2.carbon.tomcat.ext.valves.SameSiteCookieValve.invoke(SameSiteCookieValve.java:38)
+	at org.wso2.carbon.identity.cors.valve.CORSValve.invoke(CORSValve.java:83)
+	at org.wso2.carbon.identity.authz.valve.AuthorizationValve.invoke(AuthorizationValve.java:185)
+	at org.wso2.carbon.identity.auth.valve.AuthenticationValve.invoke(AuthenticationValve.java:120)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:110)
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:71)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:152)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:63)
+	at org.wso2.carbon.tomcat.ext.valves.RequestEncodingValve.invoke(RequestEncodingValve.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.RequestCorrelationIdValve.invoke(RequestCorrelationIdValve.java:137)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: Transaction (Process ID 114) was deadlocked on lock resources with another process and has been chosen as the deadlock victim. Rerun the transaction.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:265)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1676)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:615)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:537)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7730)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:3786)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:268)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:242)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.execute(SQLServerPreparedStatement.java:515)
+	at jdk.internal.reflect.GeneratedMethodAccessor152.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.tomcat.jdbc.pool.StatementFacade$StatementProxy.invoke(StatementFacade.java:118)
+	at com.sun.proxy.$Proxy54.execute(Unknown Source)
+	at org.wso2.carbon.identity.oauth2.dao.AccessTokenDAOImpl.storeTokenToSessionMapping(AccessTokenDAOImpl.java:1165)
+	... 87 more
+
+TID: [-1234] [oauth2] [2025-04-03 18:03:58,626] [1801c25c-deea-4497-9256-7b54e0e006fb]  WARN {org.wso2.carbon.identity.oauth2.authz.validators.AbstractResponseTypeRequestValidator} - Provided Callback URL does not match with the registered one.
+TID: [-1234] [] [2025-04-03 22:35:00,090] [151a0952-0c7f-43b9-85e9-5a0e80fcc373] ERROR {org.wso2.carbon.identity.application.authentication.framework.handler.request.impl.DefaultRequestCoordinator} - Redirecting to retry page as the authentication context has expired.

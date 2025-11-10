@@ -1,0 +1,267 @@
+TID: [2025-06-09 14:35:49,146]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\conf\registry.xml.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,162]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\conf\data-bridge\data-agent-config.xml.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,162]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\conf\tomcat\catalina-server.xml.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,162]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\conf\etc\tasks-config.xml.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,162]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\conf\identity\captcha-config.properties.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,162]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\conf\identity\application-authentication.xml.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,162]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\conf\health-check-config.xml.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,162]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\conf\carbon.xml.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,162]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\conf\multitenancy\usage-throttling-agent-config.xml.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,162]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\conf\event-processor.xml.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,162]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\conf\multitenancy\stratos.xml.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,179]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\conf\datasources\bps-datasources.xml.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,180]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\conf\identity\identity.xml.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,180]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\conf\identity\entitlement.properties.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,181]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\conf\identity\identity-event.properties.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,181]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\deployment\server\webapps\authenticationendpoint\WEB-INF\web.xml.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,182]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\conf\multitenancy\cloud-services-desc.xml.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,182]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\conf\multitenancy\multitenancy-packages.xml.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,183]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\conf\datasources\master-datasources.xml.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,183]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\deployment\server\webapps\console\deployment.config.json.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,183]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\conf\consent-mgt-config.xml.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,183]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\conf\security\Owasp.CsrfGuard.Carbon.properties.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,184]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\conf\tomcat\web.xml.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,185]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\conf\output-event-adapters.xml.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,185]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\conf\axis2\axis2_client.xml.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,185]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\conf\axis2\axis2.xml.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,186]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\conf\security\cipher-text.properties.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,186]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\deployment\server\webapps\accountrecoveryendpoint\WEB-INF\web.xml.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,187]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\conf\axis2\tenant-axis2.xml.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,187]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\conf\carbon.properties.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,187]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\conf\identity\schemas.xml.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,188]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\conf\hazelcast.properties.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,188]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\conf\etc\jmx.xml.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,188]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\conf\identity\RecoveryEndpointConfig.properties.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,188]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\conf\security\certificate-validation.xml.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,188]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\conf\identity\EndpointConfig.properties.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,188]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\conf\tenant-mgt.xml.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,189]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\deployment\server\webapps\myaccount\deployment.config.json.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,189]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\conf\tomcat\carbon\META-INF\context.xml.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,189]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\conf\wso2-log-masking.properties.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,189]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\conf\security\authenticators.xml.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,190]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\templates\repository\conf\user-mgt.xml.j2 {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,190]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\infer.json {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,190]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\default.json {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,190]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\validator.json {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,190]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\key-mappings.json {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,191]  WARN {org.wso2.config.mapper.ConfigParser} - New Configurations found in :repository\resources\conf\unit-resolve.json {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,191]  INFO {org.wso2.config.mapper.ConfigParser} - Applying Configurations upon new Templates {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,192]  WARN {org.wso2.config.mapper.ConfigParser} - Configurations Changed in :repository/conf/deployment.toml {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:35:49,192]  WARN {org.wso2.config.mapper.ConfigParser} - Overriding files in configuration directory D:\Project\IDP_WSO2\bin\.. {org.wso2.config.mapper.ConfigParser}
+TID: [] [] [2025-06-09 14:35:56,177] []  INFO {org.ops4j.pax.logging.spi.support.EventAdminConfigurationNotifier} - Sending Event Admin notification (configuration successful) to org/ops4j/pax/logging/Configuration
+TID: [] [] [2025-06-09 14:35:56,486] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Starting WSO2 Carbon...
+TID: [] [] [2025-06-09 14:35:56,487] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Operating System : Windows 11 10.0, amd64
+TID: [] [] [2025-06-09 14:35:56,488] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Home        : D:\jdk11.0.27
+TID: [] [] [2025-06-09 14:35:56,488] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Version     : 11.0.27
+TID: [] [] [2025-06-09 14:35:56,489] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java VM          : OpenJDK 64-Bit Server VM 11.0.27+6-LTS,Microsoft
+TID: [] [] [2025-06-09 14:35:56,490] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Carbon Home      : D:\Project\IDP_WSO2\bin\..
+TID: [] [] [2025-06-09 14:35:56,491] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Temp Dir    : D:\Project\IDP_WSO2\bin\..\tmp
+TID: [] [] [2025-06-09 14:35:56,491] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - User             : KTHTS-PHUC, en-US, Asia/Bangkok
+TID: [] [] [2025-06-09 14:35:57,099] []  INFO {org.wso2.carbon.event.output.adapter.kafka.internal.ds.KafkaEventAdapterServiceDS} - Successfully deployed the Kafka output event adaptor service
+TID: [] [] [2025-06-09 14:35:57,397] []  INFO {org.wso2.carbon.extension.identity.verification.provider.internal.IdVProviderMgtServiceComponent} - IdVProviderMgtService bundle activated successfully.
+TID: [] [] [2025-06-09 14:35:57,512] [] ERROR {Events.Framework} - FrameworkEvent ERROR org.osgi.framework.BundleException: Could not resolve module: org.wso2.carbon.identity.application.authenticator.fido [268]
+  Unresolved requirement: Import-Package: org.wso2.carbon.identity.application.authenticator.fido2.core; version="5.3.34"
+    -> Export-Package: org.wso2.carbon.identity.application.authenticator.fido2.core; bundle-symbolic-name="org.wso2.carbon.identity.application.authenticator.fido2"; bundle-version="5.3.34"; version="5.3.34"; uses:="com.fasterxml.jackson.core,org.wso2.carbon.identity.application.authentication.framework.exception,org.wso2.carbon.identity.application.authentication.framework.model,org.wso2.carbon.identity.application.authenticator.fido2.dto,org.wso2.carbon.identity.application.authenticator.fido2.exception,org.wso2.carbon.identity.application.authenticator.fido2.util"
+       org.wso2.carbon.identity.application.authenticator.fido2 [269]
+         Unresolved requirement: Import-Package: com.webauthn4j; version="0.21.0.wso2v1"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:457)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$1.run(ModuleContainer.java:1820)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$2$1.execute(EquinoxContainerAdaptor.java:150)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1813)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1770)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1735)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+TID: [] [] [2025-06-09 14:35:57,516] [] ERROR {Events.Framework} - FrameworkEvent ERROR org.osgi.framework.BundleException: Could not resolve module: org.wso2.carbon.identity.application.authenticator.fido2 [269]
+  Unresolved requirement: Import-Package: com.webauthn4j; version="0.21.0.wso2v1"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:457)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$1.run(ModuleContainer.java:1820)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$2$1.execute(EquinoxContainerAdaptor.java:150)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1813)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1770)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1735)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+TID: [] [] [2025-06-09 14:35:57,800] []  INFO {org.wso2.carbon.identity.hash.provider.pbkdf2.internal.PBKDF2HashServiceComponent} - PBKDF2 bundle activated successfully.
+TID: [] [] [2025-06-09 14:35:58,982] []  INFO {org.wso2.carbon.mex.internal.Office365SupportMexComponent} - Office365Support MexServiceComponent bundle activated successfully..
+TID: [] [] [2025-06-09 14:35:59,003] []  INFO {org.wso2.carbon.mex2.internal.DynamicCRMCustomMexComponent} - DynamicCRMSupport MexServiceComponent bundle activated successfully.
+TID: [] [] [2025-06-09 14:35:59,803] []  WARN {org.apache.tomcat.jdbc.pool.ConnectionPool} - maxIdle is smaller than minIdle, setting maxIdle to: 30
+TID: [] [] [2025-06-09 14:36:01,361] []  WARN {org.apache.tomcat.jdbc.pool.ConnectionPool} - maxIdle is smaller than minIdle, setting maxIdle to: 30
+TID: [] [] [2025-06-09 14:36:01,603] []  INFO {org.wso2.carbon.consent.mgt.core.internal.ConsentManagerComponent} - ConsentManagerComponent is activated.
+TID: [] [] [2025-06-09 14:36:01,630] []  INFO {org.wso2.carbon.extension.identity.verification.mgt.internal.IdentityVerificationServiceComponent} - IdentityVerificationService bundle activated successfully.
+TID: [] [] [2025-06-09 14:36:02,097] []  INFO {org.wso2.carbon.identity.sample.local.authenticator.internal.DefaultOtpComponent} - org.wso2.carbon.identity.sample.local.authenticator.global.defaultotp.DefaultOtpAuthenticator@6f94b3e1
+TID: [] [] [2025-06-09 14:36:02,103] []  INFO {org.wso2.carbon.identity.sample.local.authenticator.internal.GlobalEmailOtpComponent} - org.wso2.carbon.identity.sample.local.authenticator.global.email.GlobalEmailOtpAuthenticator@21c7c
+TID: [] [] [2025-06-09 14:36:02,110] []  INFO {org.wso2.carbon.identity.sample.local.authenticator.internal.GlobalPkiComponent} - org.wso2.carbon.identity.sample.local.authenticator.global.pki.GlobalPkiAuthenticator@30210924
+TID: [] [] [2025-06-09 14:36:02,125] []  INFO {org.wso2.carbon.identity.sample.local.authenticator.internal.GlobalSmsOtpComponent} - org.wso2.carbon.identity.sample.local.authenticator.global.sms.GlobalSmsOtpAuthenticator@259613dc
+TID: [] [] [2025-06-09 14:36:02,137] []  INFO {org.wso2.carbon.identity.sample.local.authenticator.internal.GlobalUsbComponent} - org.wso2.carbon.identity.sample.local.authenticator.global.usb.GlobalUsbAuthenticator@1c4b51b1
+TID: [] [] [2025-06-09 14:36:02,144] []  INFO {org.wso2.carbon.identity.sample.local.authenticator.internal.LdapAuthenticatorComponent} - org.wso2.carbon.identity.sample.local.authenticator.global.ldap.LdapAuthenticator@12a0cb23
+TID: [] [] [2025-06-09 14:36:02,152] []  INFO {org.wso2.carbon.identity.sample.local.authenticator.internal.QrCodeComponent} - org.wso2.carbon.identity.sample.local.authenticator.global.qrcode.QrCodeAuthenticator@6b0e48d1
+TID: [] [] [2025-06-09 14:36:02,156] []  INFO {org.wso2.carbon.identity.sample.local.authenticator.internal.SmeBasicComponent} - org.wso2.carbon.identity.sample.local.authenticator.sme.SmeBasicAuthenticator@15861430
+TID: [] [] [2025-06-09 14:36:02,165] []  INFO {org.wso2.carbon.identity.sample.local.authenticator.internal.VNCONNECTMappingComponent} - org.wso2.carbon.identity.sample.local.authenticator.global.mapping.VNCONNECT@5dc97b98
+TID: [] [] [2025-06-09 14:36:02,171] []  INFO {org.wso2.carbon.identity.sample.local.authenticator.internal.VNeIDMappingComponent} - org.wso2.carbon.identity.sample.local.authenticator.global.mapping.VNeID@1fab7e52
+TID: [] [] [2025-06-09 14:36:03,092] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Configured Registry in 131ms
+TID: [] [] [2025-06-09 14:36:03,132] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 9ms
+TID: [] [] [2025-06-09 14:36:03,134] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 11ms
+TID: [] [] [2025-06-09 14:36:03,313] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 3ms
+TID: [] [] [2025-06-09 14:36:03,314] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 5ms
+TID: [] [] [2025-06-09 14:36:03,342] []  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} - Registry Mode    : READ-WRITE
+TID: [] [] [2025-06-09 14:36:07,075] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+TID: [] [] [2025-06-09 14:36:07,374] []  INFO {org.wso2.carbon.registry.indexing.solr.SolrClient} - Default Embedded Solr Server Initialized
+TID: [] [] [2025-06-09 14:36:07,607] []  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} - Carbon UserStoreMgtDSComponent activated successfully.
+TID: [] [] [2025-06-09 14:36:07,671] []  WARN {org.wso2.carbon.core} - [SCR] ComponentReference.bind(): service reference {org.osgi.service.http.HttpService, org.eclipse.equinox.http.servlet.ExtendedHttpService}={service.description=Equinox Servlet Bridge, service.id=437, service.bundleid=121, service.scope=bundle, service.vendor=Eclipse.org} is already bound to instance org.eclipse.equinox.internal.ds.impl.ComponentInstanceImpl@2090f904  
+	Details:
+	Problematic reference = Reference[name = http.service, interface = org.osgi.service.http.HttpService, policy = dynamic, cardinality = 1..1, target = null, bind = setHttpService, unbind = unsetHttpService]
+	of service component = carbon.core.dscomponent
+	component implementation class = org.wso2.carbon.core.internal.CarbonCoreServiceComponent
+	located in bundle with symbolic name = org.wso2.carbon.core
+	bundle location = reference:file:../plugins/org.wso2.carbon.core_4.9.6.jar
+TID: [] [] [2025-06-09 14:36:07,709] []  INFO {org.wso2.carbon.attachment.mgt.server.internal.AttachmentServiceComponent} - Initialising Attachment Server
+TID: [] [] [2025-06-09 14:36:08,232] []  INFO {org.wso2.carbon.attachment.mgt.core.dao.impl.jpa.AbstractJPAVendorAdapter} - [Attachment-Mgt OpenJPA] DB Dictionary: h2
+TID: [] [] [2025-06-09 14:36:08,234] []  INFO {org.wso2.carbon.attachment.mgt.core.dao.impl.jpa.AbstractJPAVendorAdapter} - [Attachment-Mgt OpenJPA] Generate DDL Enabled.
+TID: [] [] [2025-06-09 14:36:08,493] []  INFO {org.wso2.carbon.attachment.mgt.server.internal.AttachmentServiceComponent} - Registering AttachmentServerService
+TID: [] [] [2025-06-09 14:36:08,516] []  INFO {org.wso2.carbon.bpel.core.internal.BPELServiceComponent} - Initializing BPEL Engine........
+TID: [] [] [2025-06-09 14:36:08,684] []  INFO {org.apache.ode.il.EmbeddedGeronimoFactory} - Using embedded Geronimo transaction manager
+TID: [] [] [2025-06-09 14:36:08,752] []  INFO {org.apache.ode.il.dbutil.Database} - ODE using external DataSource "bpsds".
+TID: [] [] [2025-06-09 14:36:08,754] []  INFO {org.wso2.carbon.bpel.core.ode.integration.BPELServerImpl} - Using DAO Connection Factory class: org.apache.ode.dao.jpa.BPELDAOConnectionFactoryImpl
+TID: [] [] [2025-06-09 14:36:08,754] []  INFO {org.apache.ode.il.dbutil.Database} - Using DAO Connection Factory class org.apache.ode.dao.jpa.BPELDAOConnectionFactoryImpl.
+TID: [] [] [2025-06-09 14:36:09,467] []  INFO {org.apache.ode.store.jpa.DbConfStoreConnectionFactory} - ProcessStore initializing transaction manager using org.apache.ode.il.EmbeddedGeronimoFactory
+TID: [] [] [2025-06-09 14:36:09,467] []  INFO {org.apache.ode.il.EmbeddedGeronimoFactory} - Using embedded Geronimo transaction manager
+TID: [] [] [2025-06-09 14:36:09,519] []  INFO {org.apache.ode.scheduler.simple.JdbcDelegate} - Using database H2 major version 2
+TID: [] [] [2025-06-09 14:36:09,520] []  INFO {org.apache.ode.scheduler.simple.JdbcDelegate} - Using database dialect: H2
+TID: [] [] [2025-06-09 14:36:09,547] []  INFO {org.wso2.carbon.bpel.core.ode.integration.BPELServerImpl} - This node is a manager node
+TID: [] [] [2025-06-09 14:36:09,556] []  INFO {org.wso2.carbon.bpel.core.ode.integration.BPELServerImpl} - Registering E4X Extension...
+TID: [] [] [2025-06-09 14:36:09,582] []  INFO {org.wso2.carbon.bpel.core.ode.integration.BPELServerImpl} - Registering B4P Extension...
+TID: [] [] [2025-06-09 14:36:09,606] []  INFO {org.wso2.carbon.bpel.core.ode.integration.BPELServerImpl} - Registering B4P Filter...
+TID: [] [] [2025-06-09 14:36:09,614] []  INFO {org.apache.ode.bpel.engine.BpelServerImpl} - BPEL Server Started.
+TID: [] [] [2025-06-09 14:36:09,614] []  INFO {org.wso2.carbon.bpel.core.ode.integration.BPELServerImpl} - Registering MBeans
+TID: [] [] [2025-06-09 14:36:09,810] []  INFO {org.wso2.carbon.humantask.core.internal.HumanTaskServiceComponent} - Initialising HumanTask Server
+TID: [] [] [2025-06-09 14:36:09,966] []  INFO {org.apache.ode.il.EmbeddedGeronimoFactory} - Using embedded Geronimo transaction manager
+TID: [] [] [2025-06-09 14:36:09,990] []  INFO {org.wso2.carbon.humantask.core.dao.jpa.AbstractJPAVendorAdapter} - [HT OpenJPA] DB Dictionary: h2
+TID: [] [] [2025-06-09 14:36:09,990] []  INFO {org.wso2.carbon.humantask.core.dao.jpa.AbstractJPAVendorAdapter} - [HT OpenJPA] Generate DDL Enabled.
+TID: [] [] [2025-06-09 14:36:10,043] []  INFO {org.wso2.carbon.humantask.core.internal.HumanTaskServiceComponent} - Registering Axis2ConfigurationContextObserver
+TID: [] [] [2025-06-09 14:36:10,066] []  INFO {org.wso2.carbon.humantask.core.internal.HumanTaskServiceComponent} - Registering HT related MBeans
+TID: [] [] [2025-06-09 14:36:10,073] []  INFO {org.wso2.carbon.humantask.core.internal.HumanTaskServiceComponent} - MXBean for Human tasks registered successfully
+TID: [] [] [2025-06-09 14:37:10,288] []  WARN {org.wso2.carbon.core.init.CarbonServerManager} - Carbon initialization is delayed due to the following unsatisfied items:
+TID: [] [] [2025-06-09 14:37:10,289] []  WARN {org.wso2.carbon.core.init.CarbonServerManager} - Waiting for required OSGiAxis2Service: org.wso2.carbon.identity.application.authenticator.fido-5.3.34
+TID: [] [] [2025-06-09 14:38:10,276] []  WARN {org.wso2.carbon.core.init.CarbonServerManager} - Carbon initialization is delayed due to the following unsatisfied items:
+TID: [] [] [2025-06-09 14:38:10,280] []  WARN {org.wso2.carbon.core.init.CarbonServerManager} - Waiting for required OSGiAxis2Service: org.wso2.carbon.identity.application.authenticator.fido-5.3.34
+TID: [] [] [2025-06-09 14:38:13,104] []  INFO {org.wso2.carbon.bpel.core.internal.BPELServiceComponent} - Shutting down BPEL Server........
+TID: [] [] [2025-06-09 14:38:13,104] []  INFO {org.apache.ode.bpel.engine.BpelServerImpl} - BPEL Server Stopped.
+TID: [] [] [2025-06-09 14:38:13,121] []  INFO {org.wso2.carbon.bpel.core.ode.integration.BPELServerImpl} - BPEL Server shutdown completed.
+TID: [2025-06-09 14:38:28,093]  WARN {org.wso2.config.mapper.ConfigParser} - Configurations Changed in :repository\conf\deployment.toml {org.wso2.config.mapper.ConfigParser}
+TID: [2025-06-09 14:38:28,093]  WARN {org.wso2.config.mapper.ConfigParser} - Overriding files in configuration directory D:\Project\IDP_WSO2\bin\.. {org.wso2.config.mapper.ConfigParser}
+TID: [] [] [2025-06-09 14:38:34,426] []  INFO {org.ops4j.pax.logging.spi.support.EventAdminConfigurationNotifier} - Sending Event Admin notification (configuration successful) to org/ops4j/pax/logging/Configuration
+TID: [] [] [2025-06-09 14:38:34,683] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Starting WSO2 Carbon...
+TID: [] [] [2025-06-09 14:38:34,685] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Operating System : Windows 11 10.0, amd64
+TID: [] [] [2025-06-09 14:38:34,685] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Home        : D:\jdk11.0.27
+TID: [] [] [2025-06-09 14:38:34,686] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Version     : 11.0.27
+TID: [] [] [2025-06-09 14:38:34,686] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java VM          : OpenJDK 64-Bit Server VM 11.0.27+6-LTS,Microsoft
+TID: [] [] [2025-06-09 14:38:34,686] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Carbon Home      : D:\Project\IDP_WSO2\bin\..
+TID: [] [] [2025-06-09 14:38:34,687] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Temp Dir    : D:\Project\IDP_WSO2\bin\..\tmp
+TID: [] [] [2025-06-09 14:38:34,687] []  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - User             : KTHTS-PHUC, en-US, Asia/Bangkok
+TID: [] [] [2025-06-09 14:38:35,156] []  INFO {org.wso2.carbon.event.output.adapter.kafka.internal.ds.KafkaEventAdapterServiceDS} - Successfully deployed the Kafka output event adaptor service
+TID: [] [] [2025-06-09 14:38:35,532] []  INFO {org.wso2.carbon.extension.identity.verification.provider.internal.IdVProviderMgtServiceComponent} - IdVProviderMgtService bundle activated successfully.
+TID: [] [] [2025-06-09 14:38:35,634] [] ERROR {Events.Framework} - FrameworkEvent ERROR org.osgi.framework.BundleException: Could not resolve module: org.wso2.carbon.identity.application.authenticator.fido [268]
+  Unresolved requirement: Import-Package: org.wso2.carbon.identity.application.authenticator.fido2.core; version="5.3.34"
+    -> Export-Package: org.wso2.carbon.identity.application.authenticator.fido2.core; bundle-symbolic-name="org.wso2.carbon.identity.application.authenticator.fido2"; bundle-version="5.3.34"; version="5.3.34"; uses:="com.fasterxml.jackson.core,org.wso2.carbon.identity.application.authentication.framework.exception,org.wso2.carbon.identity.application.authentication.framework.model,org.wso2.carbon.identity.application.authenticator.fido2.dto,org.wso2.carbon.identity.application.authenticator.fido2.exception,org.wso2.carbon.identity.application.authenticator.fido2.util"
+       org.wso2.carbon.identity.application.authenticator.fido2 [269]
+         Unresolved requirement: Import-Package: com.webauthn4j; version="0.21.0.wso2v1"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:457)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$1.run(ModuleContainer.java:1820)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$2$1.execute(EquinoxContainerAdaptor.java:150)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1813)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1770)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1735)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+TID: [] [] [2025-06-09 14:38:35,640] [] ERROR {Events.Framework} - FrameworkEvent ERROR org.osgi.framework.BundleException: Could not resolve module: org.wso2.carbon.identity.application.authenticator.fido2 [269]
+  Unresolved requirement: Import-Package: com.webauthn4j; version="0.21.0.wso2v1"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:457)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$1.run(ModuleContainer.java:1820)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$2$1.execute(EquinoxContainerAdaptor.java:150)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1813)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1770)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1735)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+TID: [] [] [2025-06-09 14:38:35,910] []  INFO {org.wso2.carbon.identity.hash.provider.pbkdf2.internal.PBKDF2HashServiceComponent} - PBKDF2 bundle activated successfully.
+TID: [] [] [2025-06-09 14:38:37,261] []  INFO {org.wso2.carbon.mex.internal.Office365SupportMexComponent} - Office365Support MexServiceComponent bundle activated successfully..
+TID: [] [] [2025-06-09 14:38:37,289] []  INFO {org.wso2.carbon.mex2.internal.DynamicCRMCustomMexComponent} - DynamicCRMSupport MexServiceComponent bundle activated successfully.
+TID: [] [] [2025-06-09 14:38:38,101] []  WARN {org.apache.tomcat.jdbc.pool.ConnectionPool} - maxIdle is smaller than minIdle, setting maxIdle to: 30
+TID: [] [] [2025-06-09 14:38:39,416] []  WARN {org.apache.tomcat.jdbc.pool.ConnectionPool} - maxIdle is smaller than minIdle, setting maxIdle to: 30
+TID: [] [] [2025-06-09 14:38:39,621] []  INFO {org.wso2.carbon.consent.mgt.core.internal.ConsentManagerComponent} - ConsentManagerComponent is activated.
+TID: [] [] [2025-06-09 14:38:39,635] []  INFO {org.wso2.carbon.extension.identity.verification.mgt.internal.IdentityVerificationServiceComponent} - IdentityVerificationService bundle activated successfully.
+TID: [] [] [2025-06-09 14:38:40,101] []  INFO {org.wso2.carbon.identity.sample.local.authenticator.internal.DefaultOtpComponent} - org.wso2.carbon.identity.sample.local.authenticator.global.defaultotp.DefaultOtpAuthenticator@15c61a12
+TID: [] [] [2025-06-09 14:38:40,112] []  INFO {org.wso2.carbon.identity.sample.local.authenticator.internal.GlobalEmailOtpComponent} - org.wso2.carbon.identity.sample.local.authenticator.global.email.GlobalEmailOtpAuthenticator@2caad6a5
+TID: [] [] [2025-06-09 14:38:40,123] []  INFO {org.wso2.carbon.identity.sample.local.authenticator.internal.GlobalPkiComponent} - org.wso2.carbon.identity.sample.local.authenticator.global.pki.GlobalPkiAuthenticator@53c93e2c
+TID: [] [] [2025-06-09 14:38:40,130] []  INFO {org.wso2.carbon.identity.sample.local.authenticator.internal.GlobalSmsOtpComponent} - org.wso2.carbon.identity.sample.local.authenticator.global.sms.GlobalSmsOtpAuthenticator@4455625c
+TID: [] [] [2025-06-09 14:38:40,139] []  INFO {org.wso2.carbon.identity.sample.local.authenticator.internal.GlobalUsbComponent} - org.wso2.carbon.identity.sample.local.authenticator.global.usb.GlobalUsbAuthenticator@2c9a8875
+TID: [] [] [2025-06-09 14:38:40,155] []  INFO {org.wso2.carbon.identity.sample.local.authenticator.internal.LdapAuthenticatorComponent} - org.wso2.carbon.identity.sample.local.authenticator.global.ldap.LdapAuthenticator@1619b562
+TID: [] [] [2025-06-09 14:38:40,169] []  INFO {org.wso2.carbon.identity.sample.local.authenticator.internal.QrCodeComponent} - org.wso2.carbon.identity.sample.local.authenticator.global.qrcode.QrCodeAuthenticator@42888034
+TID: [] [] [2025-06-09 14:38:40,175] []  INFO {org.wso2.carbon.identity.sample.local.authenticator.internal.SmeBasicComponent} - org.wso2.carbon.identity.sample.local.authenticator.sme.SmeBasicAuthenticator@799ffe83
+TID: [] [] [2025-06-09 14:38:40,179] []  INFO {org.wso2.carbon.identity.sample.local.authenticator.internal.VNCONNECTMappingComponent} - org.wso2.carbon.identity.sample.local.authenticator.global.mapping.VNCONNECT@c692c2a
+TID: [] [] [2025-06-09 14:38:40,218] []  INFO {org.wso2.carbon.identity.sample.local.authenticator.internal.VNeIDMappingComponent} - org.wso2.carbon.identity.sample.local.authenticator.global.mapping.VNeID@7f595fcc
+TID: [] [] [2025-06-09 14:38:41,009] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Configured Registry in 102ms
+TID: [] [] [2025-06-09 14:38:41,032] []  INFO {org.apache.jasper.servlet.TldScanner} - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+TID: [] [] [2025-06-09 14:38:41,044] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 8ms
+TID: [] [] [2025-06-09 14:38:41,046] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 10ms
+TID: [] [] [2025-06-09 14:38:41,215] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 3ms
+TID: [] [] [2025-06-09 14:38:41,215] []  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 4ms
+TID: [] [] [2025-06-09 14:38:41,244] []  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} - Registry Mode    : READ-WRITE
+TID: [] [] [2025-06-09 14:38:43,764] []  INFO {org.wso2.carbon.registry.indexing.solr.SolrClient} - Default Embedded Solr Server Initialized
+TID: [] [] [2025-06-09 14:38:44,407] []  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} - Carbon UserStoreMgtDSComponent activated successfully.
+TID: [] [] [2025-06-09 14:38:44,484] []  INFO {org.wso2.carbon.attachment.mgt.server.internal.AttachmentServiceComponent} - Initialising Attachment Server
+TID: [] [] [2025-06-09 14:38:44,800] []  INFO {org.wso2.carbon.attachment.mgt.core.dao.impl.jpa.AbstractJPAVendorAdapter} - [Attachment-Mgt OpenJPA] DB Dictionary: h2
+TID: [] [] [2025-06-09 14:38:44,802] []  INFO {org.wso2.carbon.attachment.mgt.core.dao.impl.jpa.AbstractJPAVendorAdapter} - [Attachment-Mgt OpenJPA] Generate DDL Enabled.
+TID: [] [] [2025-06-09 14:38:44,945] []  INFO {org.wso2.carbon.attachment.mgt.server.internal.AttachmentServiceComponent} - Registering AttachmentServerService
+TID: [] [] [2025-06-09 14:38:44,975] []  INFO {org.wso2.carbon.bpel.core.internal.BPELServiceComponent} - Initializing BPEL Engine........
+TID: [] [] [2025-06-09 14:38:45,081] []  INFO {org.apache.ode.il.EmbeddedGeronimoFactory} - Using embedded Geronimo transaction manager
+TID: [] [] [2025-06-09 14:38:45,149] []  INFO {org.apache.ode.il.dbutil.Database} - ODE using external DataSource "bpsds".
+TID: [] [] [2025-06-09 14:38:45,150] []  INFO {org.wso2.carbon.bpel.core.ode.integration.BPELServerImpl} - Using DAO Connection Factory class: org.apache.ode.dao.jpa.BPELDAOConnectionFactoryImpl
+TID: [] [] [2025-06-09 14:38:45,151] []  INFO {org.apache.ode.il.dbutil.Database} - Using DAO Connection Factory class org.apache.ode.dao.jpa.BPELDAOConnectionFactoryImpl.
+TID: [] [] [2025-06-09 14:38:45,285] []  INFO {org.apache.ode.store.jpa.DbConfStoreConnectionFactory} - ProcessStore initializing transaction manager using org.apache.ode.il.EmbeddedGeronimoFactory
+TID: [] [] [2025-06-09 14:38:45,285] []  INFO {org.apache.ode.il.EmbeddedGeronimoFactory} - Using embedded Geronimo transaction manager
+TID: [] [] [2025-06-09 14:38:45,325] []  INFO {org.apache.ode.scheduler.simple.JdbcDelegate} - Using database H2 major version 2
+TID: [] [] [2025-06-09 14:38:45,327] []  INFO {org.apache.ode.scheduler.simple.JdbcDelegate} - Using database dialect: H2
+TID: [] [] [2025-06-09 14:38:45,362] []  INFO {org.wso2.carbon.bpel.core.ode.integration.BPELServerImpl} - This node is a manager node
+TID: [] [] [2025-06-09 14:38:45,404] []  INFO {org.wso2.carbon.bpel.core.ode.integration.BPELServerImpl} - Registering E4X Extension...
+TID: [] [] [2025-06-09 14:38:45,422] []  INFO {org.wso2.carbon.bpel.core.ode.integration.BPELServerImpl} - Registering B4P Extension...
+TID: [] [] [2025-06-09 14:38:45,442] []  INFO {org.wso2.carbon.bpel.core.ode.integration.BPELServerImpl} - Registering B4P Filter...
+TID: [] [] [2025-06-09 14:38:45,453] []  INFO {org.apache.ode.bpel.engine.BpelServerImpl} - BPEL Server Started.
+TID: [] [] [2025-06-09 14:38:45,454] []  INFO {org.wso2.carbon.bpel.core.ode.integration.BPELServerImpl} - Registering MBeans
+TID: [] [] [2025-06-09 14:38:45,652] []  INFO {org.wso2.carbon.humantask.core.internal.HumanTaskServiceComponent} - Initialising HumanTask Server
+TID: [] [] [2025-06-09 14:38:45,792] []  INFO {org.apache.ode.il.EmbeddedGeronimoFactory} - Using embedded Geronimo transaction manager
+TID: [] [] [2025-06-09 14:38:45,821] []  INFO {org.wso2.carbon.humantask.core.dao.jpa.AbstractJPAVendorAdapter} - [HT OpenJPA] DB Dictionary: h2
+TID: [] [] [2025-06-09 14:38:45,823] []  INFO {org.wso2.carbon.humantask.core.dao.jpa.AbstractJPAVendorAdapter} - [HT OpenJPA] Generate DDL Enabled.
+TID: [] [] [2025-06-09 14:38:45,868] []  INFO {org.wso2.carbon.humantask.core.internal.HumanTaskServiceComponent} - Registering Axis2ConfigurationContextObserver
+TID: [] [] [2025-06-09 14:38:45,894] []  INFO {org.wso2.carbon.humantask.core.internal.HumanTaskServiceComponent} - Registering HT related MBeans
+TID: [] [] [2025-06-09 14:38:45,905] []  INFO {org.wso2.carbon.humantask.core.internal.HumanTaskServiceComponent} - MXBean for Human tasks registered successfully
+TID: [] [] [2025-06-09 14:39:46,114] []  WARN {org.wso2.carbon.core.init.CarbonServerManager} - Carbon initialization is delayed due to the following unsatisfied items:
+TID: [] [] [2025-06-09 14:39:46,116] []  WARN {org.wso2.carbon.core.init.CarbonServerManager} - Waiting for required OSGiAxis2Service: org.wso2.carbon.identity.application.authenticator.fido-5.3.34
+TID: [] [] [2025-06-09 14:40:46,102] []  WARN {org.wso2.carbon.core.init.CarbonServerManager} - Carbon initialization is delayed due to the following unsatisfied items:
+TID: [] [] [2025-06-09 14:40:46,103] []  WARN {org.wso2.carbon.core.init.CarbonServerManager} - Waiting for required OSGiAxis2Service: org.wso2.carbon.identity.application.authenticator.fido-5.3.34
+TID: [] [] [2025-06-09 14:41:46,102] []  WARN {org.wso2.carbon.core.init.CarbonServerManager} - Carbon initialization is delayed due to the following unsatisfied items:
+TID: [] [] [2025-06-09 14:41:46,102] []  WARN {org.wso2.carbon.core.init.CarbonServerManager} - Waiting for required OSGiAxis2Service: org.wso2.carbon.identity.application.authenticator.fido-5.3.34
+TID: [] [] [2025-06-09 14:42:46,113] []  WARN {org.wso2.carbon.core.init.CarbonServerManager} - Carbon initialization is delayed due to the following unsatisfied items:
+TID: [] [] [2025-06-09 14:42:46,114] []  WARN {org.wso2.carbon.core.init.CarbonServerManager} - Waiting for required OSGiAxis2Service: org.wso2.carbon.identity.application.authenticator.fido-5.3.34
+TID: [] [] [2025-06-09 14:43:46,107] []  WARN {org.wso2.carbon.core.init.CarbonServerManager} - Carbon initialization is delayed due to the following unsatisfied items:
+TID: [] [] [2025-06-09 14:43:46,107] []  WARN {org.wso2.carbon.core.init.CarbonServerManager} - Waiting for required OSGiAxis2Service: org.wso2.carbon.identity.application.authenticator.fido-5.3.34
+TID: [] [] [2025-06-09 14:44:27,040] []  INFO {org.wso2.carbon.bpel.core.internal.BPELServiceComponent} - Shutting down BPEL Server........
+TID: [] [] [2025-06-09 14:44:27,040] []  INFO {org.apache.ode.bpel.engine.BpelServerImpl} - BPEL Server Stopped.
+TID: [] [] [2025-06-09 14:44:27,040] []  INFO {org.wso2.carbon.bpel.core.ode.integration.BPELServerImpl} - BPEL Server shutdown completed.

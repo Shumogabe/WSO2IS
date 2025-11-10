@@ -1,0 +1,4 @@
+10.151.131.171 - - [18/May/2025:17:47:07 +0700] GET /oauth2/jwks HTTP/1.0 200 1845 "-" "Apache-HttpClient/4.5.12 (Java/17.0.14)" 0.006
+10.151.131.171 - - [18/May/2025:17:47:07 +0700] GET /oauth2/jwks HTTP/1.0 200 1845 "-" "Apache-HttpClient/4.5.12 (Java/17.0.14)" 0.006
+10.151.131.171 - - [18/May/2025:23:56:56 +0700] POST /oauth2/token HTTP/1.0 400 90 "-" "Apache-HttpClient/4.5.12 (Java/17.0.14)" 0.077
+10.151.131.171 - - [18/May/2025:23:56:56 +0700] POST /oauth2/token HTTP/1.0 400 90 "-" "Apache-HttpClient/4.5.12 (Java/17.0.14)" 0.078

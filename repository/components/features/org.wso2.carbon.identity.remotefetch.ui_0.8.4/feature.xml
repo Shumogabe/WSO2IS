@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.remotefetch.ui" label="WSO2 Carbon - Remote Fetch UI Feature" provider-name="%providerName" version="0.8.4">
+  <description>This feature contains the bundles required for the front-end Remote Repository Configuration functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.identity.remotefetch.core.ui" unpack="false" version="0.8.4"/>
+</feature>
