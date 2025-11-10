@@ -1,0 +1,10 @@
+# Update 7916
+# This contains the database changes required to be applied for update 7916
+
+ALTER TABLE IDN_OAUTH2_DEVICE_FLOW ADD SUBJECT_IDENTIFIER VARCHAR(255);
+
+# Update 8175
+# This contains the database changes required to be applied for update 8175
+
+ALTER TABLE FIDO2_DEVICE_STORE DROP PRIMARY KEY;
+ALTER TABLE FIDO2_DEVICE_STORE ADD PRIMARY KEY (CREDENTIAL_ID, USER_HANDLE);

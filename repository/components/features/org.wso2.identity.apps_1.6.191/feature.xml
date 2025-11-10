@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.identity.apps" label="WSO2 Identity Server Apps - Portal Aggregate Feature" provider-name="%providerName" version="1.6.191">
+  <description>This is the aggregated feature of the identity app portals.</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <includes id="org.wso2.identity.apps.common.server" optional="false" version="1.6.191"/>
+  <includes id="org.wso2.identity.apps.myaccount.server" optional="false" version="1.6.191"/>
+  <includes id="org.wso2.identity.apps.console.server" optional="false" version="1.6.191"/>
+</feature>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.user.mgt.workflow.server" label="WSO2 Carbon - User Management Workflow Core Feature" provider-name="%providerName" version="5.6.0">
+  <description>This feature contains the core bundles required for Back-end User Management Workflow
+        functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.user.mgt.workflow" unpack="false" version="5.6.0"/>
+  <require>
+    <import match="equivalent" plugin="commons-cli" version="1.2.0.wso2v1"/>
+    <import feature="org.wso2.carbon.identity.workflow.mgt.server" match="compatible" version="5.20.355"/>
+  </require>
+</feature>

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_wso2is_myaccount=self.webpackChunk_wso2is_myaccount||[]).push([[648],{70648:(n,t,u)=>{u.r(t),u.d(t,{default:()=>s});var c=u(52983),o=u(51820),e=u(80389);const s=function(){var n=(0,o.I0)(),t=(0,o.v9)((function(n){return n.authenticationInformation.logoutInit})),u=(0,e.QJ)();return(0,c.useEffect)((function(){t||n(u())}),[t]),null}}}]);
