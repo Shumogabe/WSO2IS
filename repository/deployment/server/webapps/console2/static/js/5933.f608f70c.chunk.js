@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_wso2is_console=self.webpackChunk_wso2is_console||[]).push([[5933],{5933:(e,s,n)=>{n.d(s,{Y:()=>a});var a={console:{application:{enabled:!0,signIn:{adaptiveAuth:{enabled:!0},enabled:!0}},enabled:!0}}}}]);

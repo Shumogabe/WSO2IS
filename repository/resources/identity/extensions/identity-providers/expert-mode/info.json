@@ -1,0 +1,10 @@
+{
+    "id": "expert-mode-idp",
+    "name": "Chế độ chuyên gia",
+    "description": "Tạo Nhà cung cấp danh tính mới với cấu hình tối thiểu.",
+    "image": "expert",
+    "category": "DEFAULT",
+    "displayOrder": -1,
+    "tags": [ "Custom" ],
+    "type": "identity-provider"
+}

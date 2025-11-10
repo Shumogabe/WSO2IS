@@ -1,0 +1,453 @@
+{
+    "accountApp": {
+                "path": "/myaccount/overview"
+    },
+    "adminApp": {
+            "path": "/manage/users",
+            "basePath": "/manage",
+            "displayName": "Quản trị"
+    },
+    "analytics": {
+    },
+    "appBaseName": "console",
+    "clientID": "CONSOLE",
+    "debug": false,
+    "developerApp": {
+            "displayName": "Triển khai",
+            "basePath": "/develop",
+            "path": "/develop/applications"
+    },
+    "idpConfigs": {
+            "logoutEndpointURL": "${serverOrigin}/${tenantPrefix}/${superTenantDomain}/oidc/logout",
+            "oidcSessionIFrameEndpointURL": "${serverOrigin}/${tenantPrefix}/${superTenantDomain}/oidc/checksession",
+            "authorizeEndpointURL": "${serverOrigin}/${tenantPrefix}/${superTenantDomain}/oauth2/authorize?ut=${userTenantDomain}",
+            "scope": [
+                    "SYSTEM",
+                    "profile",
+                    "openid"
+            ]
+    },
+    "i18nResourcePath": "",
+    "loginCallbackPath": "",
+    "logoutCallbackPath": "",
+    "routePaths": {
+            "login": "",
+            "home": "/develop/applications",
+            "logout": "/logout"
+    },
+    "extensions": {
+    },
+    "session": {
+            "sessionRefreshTimeOut": 300.0,
+            "userIdleWarningTimeOut": 580.0,
+            "checkSessionInterval": 3.0,
+            "userIdleTimeOut": 600.0
+    },
+        "getProfileInfoFromIDToken": true,
+    "ui": {
+        "announcements": [
+        ],
+        "appCopyright": "Hệ thống xác thực tập trung",
+        "appTitle": "Console | IDP",
+        "appName": "Console",
+        "appLogoPath": "/assets/images/branding/logo.svg",
+        "googleOneTapEnabledTenants": [
+        ],
+        "features": {
+            "applications": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                    "feature": [
+                            "console:applications"
+                    ],
+                    "update": [
+                            "internal_application_mgt_update"
+                    ],
+                    "create": [
+                            "internal_application_mgt_create"
+                    ],
+                    "read": [
+                            "internal_cors_origins_view",
+                            "internal_application_mgt_view",
+                            "internal_claim_meta_view",
+                            "internal_role_mgt_view",
+                            "internal_userstore_view",
+                            "internal_idp_view"
+                    ],
+                    "delete": [
+                            "internal_application_mgt_delete"
+                    ]
+                }
+            },
+            "approvals": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                    "update": [
+                            "internal_humantask_view"
+                    ],
+                    "create": [
+                            "internal_humantask_view"
+                    ],
+                    "read": [
+                            "internal_humantask_view"
+                    ],
+                    "delete": [
+                            "internal_humantask_view"
+                    ]
+                }
+            },
+            "attributeDialects": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                    "feature": [
+                            "console:attributes"
+                    ],
+                    "create": [
+                            "internal_claim_meta_create"
+                    ],
+                    "update": [
+                            "internal_claim_meta_update"
+                    ],
+                    "read": [
+                            "internal_userstore_view",
+                            "internal_claim_meta_view"
+                    ],
+                    "delete": [
+                            "internal_claim_meta_delete"
+                    ]
+                }
+            },
+            "certificates": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                    "delete": [
+                            "internal_keystore_update"
+                    ],
+                    "create": [
+                            "internal_keystore_update"
+                    ],
+                    "update": [
+                            "internal_keystore_update"
+                    ],
+                    "read": [
+                            "internal_keystore_view"
+                    ]
+                }
+            },
+            "emailTemplates": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                    "update": [
+                            "internal_email_mgt_update"
+                    ],
+                    "create": [
+                            "internal_email_mgt_create"
+                    ],
+                    "read": [
+                            "internal_email_mgt_view"
+                    ],
+                    "delete": [
+                            "internal_email_mgt_delete"
+                    ]
+                }
+            },
+            "governanceConnectors": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                    "update": [
+                            "internal_governance_update"
+                    ],
+                    "delete": [
+                    ],
+                    "read": [
+                            "internal_governance_view"
+                    ],
+                    "create": [
+                    ]
+                }
+            },
+            "groups": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                    "feature": [
+                            "console:groups"
+                    ],
+                    "update": [
+                            "internal_group_mgt_update"
+                    ],
+                    "create": [
+                            "internal_group_mgt_create"
+                    ],
+                    "read": [
+                            "internal_user_mgt_view",
+                            "internal_role_mgt_view",
+                            "internal_group_mgt_view",
+                            "internal_userstore_view"
+                    ],
+                    "delete": [
+                            "internal_group_mgt_delete"
+                    ]
+                }
+            },
+            "identityProviders": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                    "delete": [
+                            "internal_idp_delete"
+                    ],
+                    "create": [
+                            "internal_idp_create"
+                    ],
+                    "update": [
+                            "internal_idp_update"
+                    ],
+                    "read": [
+                            "internal_userstore_view",
+                            "internal_idp_view",
+                            "internal_role_mgt_view",
+                            "internal_claim_meta_view"
+                    ],
+                    "feature": [
+                            "console:idps"
+                    ]
+                }
+            },
+            "identityVerificationProviders": {
+                "enabled": true,
+                "scopes": {
+                    "read": [
+                            "internal_idvp_view"
+                    ],
+                    "update": [
+                            "internal_idvp_update"
+                    ],
+                    "create": [
+                            "internal_idvp_add"
+                    ],
+                    "delete": [
+                            "internal_idvp_delete"
+                    ]
+                }
+            },
+            "oidcScopes": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                    "update": [
+                            "internal_oidc_scope_mgt_update"
+                    ],
+                    "feature": [
+                            "console:scopes:oidc"
+                    ],
+                    "create": [
+                            "internal_oidc_scope_mgt_create"
+                    ],
+                    "read": [
+                            "internal_oidc_scope_mgt_view",
+                            "internal_claim_meta_view"
+                    ],
+                    "delete": [
+                            "internal_oidc_scope_mgt_delete"
+                    ]
+                }
+            },
+            "secretsManagement": {
+                "enabled": true,
+                "scopes": {
+                    "create": [
+                            "internal_secret_mgt_add"
+                    ],
+                    "update": [
+                            "internal_secret_mgt_update"
+                    ],
+                    "read": [
+                            "internal_secret_mgt_view"
+                    ],
+                    "delete": [
+                            "internal_secret_mgt_delete"
+                    ]
+                },
+                "disabledFeatures": [
+                ]
+            },
+            "organizations": {
+                "enabled": true,
+                "scopes": {
+                    "feature": [
+                            "console:organizations"
+                    ],
+                    "delete": [
+                            "internal_organization_delete"
+                    ],
+                    "read": [
+                            "internal_organization_view"
+                    ],
+                    "create": [
+                            "internal_organization_create"
+                    ],
+                    "update": [
+                            "internal_organization_update"
+                    ]
+                },
+                "disabledFeatures": [
+                ]
+            },
+            "remoteFetchConfig": {
+                "disabledFeatures": [
+                ],
+                "enabled": false,
+                "scopes": {
+                    "read": [
+                            "internal_identity_mgt_view",
+                            "internal_identity_mgt_update",
+                            "internal_identity_mgt_create",
+                            "internal_identity_mgt_delete"
+                    ],
+                    "create": [
+                            "internal_identity_mgt_view",
+                            "internal_identity_mgt_update",
+                            "internal_identity_mgt_create",
+                            "internal_identity_mgt_delete"
+                    ],
+                    "delete": [
+                            "internal_identity_mgt_view",
+                            "internal_identity_mgt_update",
+                            "internal_identity_mgt_create",
+                            "internal_identity_mgt_delete"
+                    ],
+                    "update": [
+                            "internal_identity_mgt_view",
+                            "internal_identity_mgt_update",
+                            "internal_identity_mgt_create",
+                            "internal_identity_mgt_delete"
+                    ]
+                }
+            },
+            "roles": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                    "read": [
+                            "internal_user_mgt_view",
+                            "internal_role_mgt_view",
+                            "internal_userstore_view",
+                            "internal_group_mgt_view"
+                    ],
+                    "update": [
+                            "internal_role_mgt_update"
+                    ],
+                    "create": [
+                            "internal_role_mgt_create"
+                    ],
+                    "feature": [
+                            "console:roles"
+                    ],
+                    "delete": [
+                            "internal_role_mgt_delete"
+                    ]
+                }
+            },
+            "users": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                    "feature": [
+                            "console:users"
+                    ],
+                    "delete": [
+                            "internal_user_mgt_delete"
+                    ],
+                    "update": [
+                            "internal_user_mgt_update",
+                            "internal_session_delete"
+                    ],
+                    "create": [
+                            "internal_user_mgt_create"
+                    ],
+                    "read": [
+                            "internal_userstore_view",
+                            "internal_role_mgt_view",
+                            "internal_group_mgt_view",
+                            "internal_governance_view",
+                            "internal_login",
+                            "internal_user_mgt_view",
+                            "internal_user_mgt_list",
+                            "internal_session_view"
+                    ]
+                }
+            },
+            "userStores": {
+                "disabledFeatures": [
+                ],
+                "enabled": true,
+                "scopes": {
+                    "read": [
+                            "internal_userstore_view"
+                    ],
+                    "update": [
+                            "internal_userstore_update"
+                    ],
+                    "delete": [
+                            "internal_userstore_delete"
+                    ],
+                    "create": [
+                            "internal_userstore_create"
+                    ]
+                }
+            }
+        },
+        "gravatarConfig": {
+               "fallback": "404"
+        },
+        "hiddenAuthenticators": [
+        ],
+        "hiddenUserStores": [
+        ],
+        "i18nConfigs": {
+        },
+        "identityProviderTemplates": {
+            "github": {
+                    "enabled": false
+            }
+        },
+        "isClientSecretHashEnabled": false,
+        "isDefaultDialectEditingEnabled": false,
+        "isGroupAndRoleSeparationEnabled": true,
+        "isHeaderAvatarLabelAllowed": true,
+        "isSignatureValidationCertificateAliasEnabled": false,
+        "listAllAttributeDialects": false,
+        "privacyPolicyConfigs": {
+        },
+        "productName": "Hệ thống xác thực tập trung",
+        "productVersionConfig": {
+                "productVersion": ""
+        },
+        "selfAppIdentifier": "Console",
+        "systemAppsIdentifiers": [
+                "Console",
+                "My Account"
+        ],
+        "theme": {
+            "name": "default"
+        }
+    }
+}

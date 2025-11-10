@@ -1,0 +1,176 @@
+[server]
+hostname = "xacthuc1.mae.gov.vn"
+node_ip = "127.0.0.1"
+base_path = "https://$ref{server.hostname}:${carbon.management.port}"
+
+[transport.https.properties]
+maxThreads = "15000"
+acceptCount = "10000"
+port = "443"
+connectionUploadTimeout = "240000"
+
+[super_admin]
+username = "admin"
+password = "3yR@y[oJg4*?d7v]"
+create_admin_account = true
+
+[user_store]
+type = "database_unique_id"
+username_java_regex="^[\\S]{1,50}$"
+username_java_script_regex="^[\\S]{1,50}$"
+
+[tenant_mgt]
+enable_email_domain= true
+disable_email_domain_validation = true
+
+[database.identity_db]
+url ="jdbc:sqlserver://10.1.118.14:1433;databaseName=IDENTITY_DB;encrypt=true;trustServerCertificate=true"
+driver = "com.microsoft.sqlserver.jdbc.SQLServerDriver"
+username = "sa"
+password = "Monre@2024!Td"
+
+[database.identity_db.pool_options]
+maxActive = "300"
+maxWait = "360000"
+minIdle ="30"
+testOnBorrow = true
+validationQuery="SELECT 1"
+validationInterval="30000"
+defaultAutoCommit=false
+commitOnReturn=true
+
+[database.shared_db]
+url ="jdbc:sqlserver://10.1.118.14:1433;databaseName=SHARED_DB;encrypt=true;trustServerCertificate=true"
+driver = "com.microsoft.sqlserver.jdbc.SQLServerDriver"
+username = "sa"
+password = "Monre@2024!Td"
+
+[database.shared_db.pool_options]
+maxActive = "300"
+maxWait = "360000"
+minIdle ="30"
+testOnBorrow = true
+validationQuery="SELECT 1"
+validationInterval="30000"
+defaultAutoCommit=false
+commitOnReturn=true
+
+[keystore.primary]
+file_name = "wso2carbon.jks"
+password = "wso2carbon"
+type="JKS"
+
+[truststore]
+file_name="client-truststore.jks"
+password="wso2carbon"
+type="JKS"
+
+[account_recovery.endpoint.auth]
+hash= "66cd9688a2ae068244ea01e70f0e230f5623b7fa4cdecb65070a09ec06452262"
+
+[identity.auth_framework.endpoint]
+app_password= "dashboard"
+
+[system_applications]
+read_only_apps = []
+
+# The KeyStore which is used for encrypting/decrypting internal data. By default the primary keystore is used as the internal keystore.
+
+#[keystore.internal]
+#file_name = "$ref{keystore.primary.file_name}"
+#type = "$ref{keystore.primary.type}"
+#password = "$ref{keystore.primary.password}"
+#alias = "$ref{keystore.primary.alias}"
+#key_password = "$ref{keystore.primary.key_password}"
+
+# The KeyStore which is used for tls communication. By default the primary keystore is used as the tls keystore.
+
+#[keystore.tls]
+#file_name = "$ref{keystore.primary.file_name}"
+#type = "$ref{keystore.primary.type}"
+#password = "$ref{keystore.primary.password}"
+#alias = "$ref{keystore.primary.alias}"
+#key_password = "$ref{keystore.primary.key_password}"
+
+#Google reCAPTCHA settings.
+
+#[recaptcha]
+#enabled = true
+#api_url = "https://www.google.com/recaptcha/api.js"
+#verify_url = "https://www.google.com/recaptcha/api/siteverify"
+#site_key = ""
+#secret_key = ""
+
+#[output_adapter.email]
+#from_address= "haiphong.notification@gmail.com"
+#username= "haiphong.notification@gmail.com"
+#password= "dewhnqbturximifh"
+#hostname= "smtp.gmail.com"
+#port=587
+
+[output_adapter.email]
+from_address= "maeid@mae.gov.vn"
+username= "maeid"
+password= "Thudi3ntuthongbao@"
+hostname= "mail.mae.gov.vn"
+port= 587
+enable_start_tls= true
+enable_authentication= true
+
+[global]
+token.url="https://xacthuc1.mae.gov.vn/oauth2/token"
+client.id="wPsDg7jU7zDl6dG20ZMB4eyDbg4a"
+client.secret="qEt0Y_l08YvK09pO_bCsvHEtHcAAhDLY2j3Y1ESwnJga"
+scope="openid"
+username="admin_call_api"
+password="pXg8NhN49AQugHD"
+email.otp.url="https://xacthuc1.mae.gov.vn/user-portal/api/user/users/otp"
+sms.otp.url="https://xacthuc1.mae.gov.vn/user-portal/api/user/users/otp"
+usb.url="https://xacthuc1.mae.gov.vn/user-portal/api/login/find/serial"
+pki.url="https://xacthuc1.mae.gov.vn/user-portal/api/login/find/pki"
+
+
+[masking_logs]
+enabled = false
+
+
+[authentication.authenticator.USB_AUTHENTICATOR]
+name = "USB_AUTHENTICATOR"
+enable = true
+[authentication.authenticator.DEFAULT_OTP_AUTHENTICATOR]
+name = "DEFAULT_OTP_AUTHENTICATOR"
+enable = true
+[authentication.authenticator.LDAP_AUTHENTICATOR]
+name = "LDAP_AUTHENTICATOR"
+enable = true
+[authentication.authenticator.CUSTOM_SMS_AUTHENTICATOR]
+name = "CUSTOM_SMS_AUTHENTICATOR"
+enable = true
+[authentication.authenticator.CUSTOM_EMAIL_AUTHENTICATOR]
+name = "CUSTOM_EMAIL_AUTHENTICATOR"
+enable = true
+[authentication.authenticator.VNCONNECT_MAPPING]
+name = "VNCONNECT_MAPPING"
+enable = true
+[authentication.authenticator.VNEID_MAPPING]
+name = "VNEID_MAPPING"
+enable = true
+
+[authentication.authenticator.basic.parameters]
+showAuthFailureReason = true
+showAuthFailureReasonOnLoginPage = true
+
+[ldap]
+base = "OU=nnmt,DC=nnmt,DC=local"
+attribute = "sAMAccountName"
+host = "ldap://10.151.132.144:389"
+user = "CN=Hệ thống định danh xác thực,OU=htxt,OU=nnmt-httt,DC=nnmt,DC=local"
+password = "X@cthucH3th0ng2025!"
+create.claims = "http://wso2.org/claims/fullname,http://wso2.org/claims/givenname,http://wso2.org/claims/lastname,http://wso2.org/claims/emailaddress,http://wso2.org/claims/mobile,http://wso2.org/claims/monreId"
+create.attributes = "name,givenName,sn,mail,telephoneNumber,sAMAccountName"
+
+[audit.log.contextual_param]
+params = ["remote_address"]
+
+[custom_header_filter]
+enable = true

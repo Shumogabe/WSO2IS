@@ -1,0 +1,10 @@
+{
+    "id": "single-page-application",
+    "name": "Ứng dụng web single page",
+    "description": "Các ứng dụng web theo cơ chế single page",
+    "image": "spa",
+    "displayOrder": 0,
+    "category": "DEFAULT",
+    "tags": [ "react", "angular", "javascript", "oidc" ],
+    "type": "applications"
+}

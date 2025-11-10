@@ -1,0 +1,10 @@
+{
+    "id": "windows-desktop-application",
+    "name": "Ứng dụng Windows",
+    "description": "Các ứng dụng được phát triển chạy trên nền tảng Windows.",
+    "image": "windows",
+    "displayOrder": 5,
+    "category": "DEFAULT",
+    "tags": [ "dotNet", "oidc" ],
+    "type": "applications"
+}

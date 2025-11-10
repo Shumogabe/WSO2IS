@@ -1,0 +1,10 @@
+{
+    "id": "github-idp",
+    "name": "GitHub",
+    "description": "Cho phép đăng nhập cho người dùng đã có tài khoản GitHub.",
+    "image": "github",
+    "category": "DEFAULT",
+    "displayOrder": 3,
+    "tags": [ "Social-Login" ],
+    "type": "identity-provider"
+}

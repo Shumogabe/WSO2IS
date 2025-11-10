@@ -1,0 +1,10 @@
+{
+    "id": "facebook-idp",
+    "name": "Facebook",
+    "description": "Cho phép đăng nhập cho người dùng đã có tài khoản Facebook.",
+    "image": "facebook",
+    "category": "DEFAULT",
+    "displayOrder": 2,
+    "tags": [ "Social-Login" ],
+    "type": "identity-provider"
+}

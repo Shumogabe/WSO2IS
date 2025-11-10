@@ -1,0 +1,10 @@
+{
+    "id": "google-idp",
+    "name": "Google",
+    "description": "Cho phép đăng nhập cho người dùng đã có tài khoản Google.",
+    "image": "google",
+    "category": "DEFAULT",
+    "displayOrder": 1,
+    "tags": [ "Social-Login" ],
+    "type": "identity-provider"
+}

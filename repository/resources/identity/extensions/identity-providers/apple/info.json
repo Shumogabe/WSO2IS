@@ -1,0 +1,10 @@
+{
+    "id": "apple-idp",
+    "name": "Apple",
+    "description": "Cho phép người dùng có ID Apple đăng nhập.",
+    "image": "apple",
+    "displayOrder": 4,
+    "category": "DEFAULT",
+    "tags": [ "Social-Login" ],
+    "type": "identity-provider"
+}

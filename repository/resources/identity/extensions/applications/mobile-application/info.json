@@ -1,0 +1,10 @@
+{
+    "id": "mobile-application",
+    "name": "Ứng dụng mobile",
+    "description": "Các ứng dụng được phát triển hướng đến thiết bị di động.",
+    "image": "oidcMobile",
+    "displayOrder": 4,
+    "category": "DEFAULT",
+    "tags": [ "android", "ios", "oidc" ],
+    "type": "applications"
+}

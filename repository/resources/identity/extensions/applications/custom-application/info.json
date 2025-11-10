@@ -1,0 +1,10 @@
+{
+    "id": "custom-application",
+    "name": "Ứng dụng web",
+    "description": "Các ứng dụng được xây dựng bằng các giao thức chuẩn.",
+    "image": "customApp",
+    "displayOrder": 4,
+    "category": "DEFAULT",
+    "tags": [ "oidc", "saml" ],
+    "type": "applications"
+}

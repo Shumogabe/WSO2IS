@@ -1,0 +1,10 @@
+{
+    "id": "saml-web-application",
+    "name": "SAML",
+    "description": "Ứng dụng web thông thường sử dụng điều hướng trong trình duyệt.",
+    "image": "saml",
+    "displayOrder": 2,
+    "category": "DEFAULT",
+    "tags": [ "java", "dotNet", "saml" ],
+    "type": "web-applications"
+}

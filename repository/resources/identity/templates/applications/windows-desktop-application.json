@@ -1,0 +1,45 @@
+{
+    "id": "df929521-6768-44f5-8586-624126ec3f8b",
+    "name": "Windows",
+    "description": "Các ứng dụng được phát triển chạy trên nền tảng Windows.",
+    "image": "windows",
+    "authenticationProtocol": "oidc",
+    "types": [
+        "dotNet"
+    ],
+    "category": "DEFAULT",
+    "displayOrder": 4,
+    "templateGroup": "desktop",
+    "application": {
+        "name": "",
+        "advancedConfigurations": {
+            "discoverableByEndUsers": false
+        },
+        "authenticationSequence": {
+            "type": "DEFAULT",
+            "steps": [
+                {
+                    "id": 1,
+                    "options": [
+                        {
+                            "idp": "LOCAL",
+                            "authenticator": "basic"
+                        }
+                    ]
+                }
+            ]
+        },
+        "inboundProtocolConfiguration": {
+            "oidc": {
+                "grantTypes": [
+                    "authorization_code"
+                ],
+                "publicClient": false,
+		  "pkce": {
+		      "mandatory": false,
+		      "supportPlainTransformAlgorithm": true
+		  },
+            }
+        }
+    }
+}

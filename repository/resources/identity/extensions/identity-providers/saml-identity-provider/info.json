@@ -1,0 +1,10 @@
+{
+    "id": "enterprise-saml-idp",
+    "name": "",
+    "description": "Cấu hình nhà cung cấp danh tính phần mềm doanh nghiệp với chuẩn SAML 2.0",
+    "image": "",
+    "category": "DEFAULT",
+    "displayOrder": 6,
+    "tags": [ "SAML" ],
+    "type": "identity-provider",
+}

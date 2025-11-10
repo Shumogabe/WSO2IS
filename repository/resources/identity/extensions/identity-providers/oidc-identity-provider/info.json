@@ -1,0 +1,10 @@
+{
+    "id": "enterprise-oidc-idp",
+    "name": "OpenID Connect",
+    "description": "Cấu hình nhà cung cấp danh tính theo chuẩn OpenID Connect",
+    "image": "",
+    "category": "DEFAULT",
+    "displayOrder": -1,
+    "tags": [ "OIDC" ],
+    "type": "identity-provider",
+}

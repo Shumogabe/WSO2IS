@@ -1,0 +1,2 @@
+[sme]
+checkValidPasswordUrl="https://gateway-onegov.vnpt.vn/admin/oauth2/check_valid_password"

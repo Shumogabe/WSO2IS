@@ -1,0 +1,10 @@
+{
+    "id": "microsoft-idp",
+    "name": "Microsoft",
+    "description": "Cho phép đăng nhập cho người dùng có tài khoản Microsoft hiện tại.",
+    "image": "microsoft",
+    "category": "DEFAULT",
+    "displayOrder": 1,
+    "tags": [ "Social-Login" ],
+    "type": "identity-provider"
+}

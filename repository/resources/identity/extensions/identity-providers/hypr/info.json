@@ -1,0 +1,10 @@
+{
+    "id": "hypr-idp",
+    "name": "HYPR",
+    "description": "Cho phép đăng nhập cho người dùng đã có tài khoản HYPR.",
+    "image": "hypr",
+    "category": "DEFAULT",
+    "displayOrder": 4,
+    "tags": [ "Social-Login" ],
+    "type": "identity-provider"
+}

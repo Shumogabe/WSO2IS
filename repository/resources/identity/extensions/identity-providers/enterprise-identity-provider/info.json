@@ -1,0 +1,10 @@
+{
+    "id": "enterprise-idp",
+    "name": "Phần mềm doanh nghiệp",
+    "description": "Phần mềm doanh nghiệp đăng nhập thông qua giao thức chuẩn",
+    "image": "enterprise-idp",
+    "category": "DEFAULT",
+    "displayOrder": -1,
+    "tags": [],
+    "type": "identity-provider"
+}

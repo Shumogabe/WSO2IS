@@ -1,0 +1,334 @@
+[server]
+hostname = "idp-onegov.vnpt.vn"
+internal_hostname = "idp-onegov.vnpt.vn"
+node_ip = "127.0.0.1"
+base_path = "https://$ref{server.hostname}:${carbon.management.port}"
+disable_addressing = true
+
+[transport.https.properties]
+maxThreads = "15000"
+acceptCount = "10000"
+port = "443"
+connectionUploadTimeout = "240000"
+#proxyhost="idp.vnpt.vn"
+#proxyPort="443"
+
+[transport.http.properties]
+maxThreads = "15000"
+acceptCount = "10000"
+
+[super_admin]
+username = "admin"
+password = "admin"
+create_admin_account = false
+
+[user_store]
+type = "database_unique_id"
+
+[database.identity_db]
+url = "jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.168.4.72)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=PDBDLQGBNV)(SERVER=DEDICATED)))"
+username = "ONEGOV_IDENTITY"
+password = "eg0V#123"
+driver = "oracle.jdbc.OracleDriver"
+[database.identity_db.pool_options]
+maxActive = "80"
+maxWait = "60000"
+minIdle = "5"
+testOnBorrow = true
+validationQuery="SELECT 1 FROM DUAL"
+validationInterval="30000"
+defaultAutoCommit=false
+
+[database.shared_db]
+url = "jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.168.4.72)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=PDBDLQGBNV)(SERVER=DEDICATED)))"
+username = "ONEGOV_SHARED"
+password = "eg0V#123"
+driver = "oracle.jdbc.OracleDriver"
+[database.shared_db.pool_options]
+maxActive = "80"
+maxWait = "60000"
+minIdle = "5"
+testOnBorrow = true
+validationQuery="SELECT 1 FROM DUAL"
+validationInterval="30000"
+defaultAutoCommit=false
+
+[keystore.primary]
+file_name = "wso2carbon.jks"
+password = "wso2carbon"
+
+[truststore]
+file_name="client-truststore.jks"
+password="wso2carbon"
+type="JKS"
+
+[account_recovery.endpoint.auth]
+hash= "66cd9688a2ae068244ea01e70f0e230f5623b7fa4cdecb65070a09ec06452262"
+
+[identity.auth_framework.endpoint]
+app_password= "dashboard"
+
+# The KeyStore which is used for encrypting/decrypting internal data. By default the primary keystore is used as the internal keystore.
+
+#[keystore.internal]
+#file_name = "$ref{keystore.primary.file_name}"
+#type = "$ref{keystore.primary.type}"
+#password = "$ref{keystore.primary.password}"
+#alias = "$ref{keystore.primary.alias}"
+#key_password = "$ref{keystore.primary.key_password}"
+
+# The KeyStore which is used for tls communication. By default the primary keystore is used as the tls keystore.
+
+#[keystore.tls]
+#file_name = "$ref{keystore.primary.file_name}"
+#type = "$ref{keystore.primary.type}"
+#password = "$ref{keystore.primary.password}"
+#alias = "$ref{keystore.primary.alias}"
+#key_password = "$ref{keystore.primary.key_password}"
+
+#Google reCAPTCHA settings.
+
+#[recaptcha]
+#enabled = true
+#api_url = "https://www.google.com/recaptcha/api.js"
+#verify_url = "https://www.google.com/recaptcha/api/siteverify"
+#site_key = ""
+#secret_key = ""
+
+# SMTP email sender settings.
+#[output_adapter.email]
+#from_address= "abcd@gmail.com"
+#username= "abcd"
+#password= "xxxx"
+#hostname= "smtp.gmail.com"
+#port= 587
+
+[system_applications]
+read_only_apps = []
+
+[[resource.access_control]]
+context="/identity(.*)"
+secure="false"
+http_method="GET"
+
+[authentication.endpoints]
+login_url="/authenticationendpoint/login.do"
+retry_url="/authenticationendpoint/retry.do"
+
+
+#config session Persistences
+[session_data.persistence]
+persistence_pool_size=1000
+
+#config tokenPersistences
+[oauth.token_generation]
+pool_size=1000
+
+
+[authentication.framework.extensions]
+claim_handler="org.wso2.custom.claim.PermissionClaimHandler"
+
+[claim.mapping]
+admin.tenant-uri="http://api-gateway:8080/category/api/public/category/items/list/TENANT_DOMAIN"
+
+# custom authenticator
+[custom.auth]
+admin.tenant-uri="http://api-gateway:8080/category/api/public/category/items/list/TENANT_DOMAIN"
+cas.servicevalidate = "/cas/serviceValidate"
+cas.hosturl = "id.vnpt.com.vn"
+cas.service = "https://idp-onegov.vnpt.vn/authenticationendpoint/cas-login.jsp"
+sms.url = "https://10.156.4.119:8443/application/g/send_sms"
+sms.token = "eyJ0eXAiOiJqd3QiLCJhbGciOiJIUzUxMiJ9.eyJzcmNhZGRyIjoiOTkzIiwiYXVkIjoiQ09OR0RPQU5fRUdPVjEiLCJ0cHMiOiIxMCIsInJvbGVzIjpbInVzZXIiXSwiaXNzIjoiaHVuZ2xrIiwicmVzb3VyY2VzIjpbImcvc2VuZF9zbXMiXSwiY2F0ZWdvcmllcyI6WyIqIl0sImV4cCI6IjE3NDI0Mjg4MDAwMDAiLCJpcHMiOlsiMTAuMTY4LjMuMTc3IiwiMTAuMTY4LjMuMTc4IiwiMTAuMTY4LjMuMTc5IiwiMTAuMTY4LjMuMTgwIiwiMTAuMTY4LjMuMTgxIiwiMTAuMTY4LjMuMjA4Il0sImp0aSI6IkNPTkdET0FOIn0=.Vys4zJW/DZTZGQ6KE3WuBw4Lb4CBaDU7F2HxPS1TkfQEaL+SkTHF+TGDpHH8kNPh6cRwTKFmTldYiLU8f5E2Jg=="
+
+[tenant_mgt]
+tenant_deletion=true
+
+[oauth.token_renewal]
+renew_access_token_per_request = true
+
+
+[ldap.custom.auth]
+ldap.base="dc=cqtd,dc=vnpt,dc=vn"
+ldap.attribute="uid"
+ldap.host="ldap://10.165.32.55:389"
+ldap.user="vnpidp"
+ldap.password="bWluaW8tc2ktY"
+ldap.uri.mapping="http://wso2.org/claims/emailaddress"
+ldap.suffix="@vnpt.vn"
+
+
+[[oauth.custom_grant_type]]
+name="ldap"
+grant_handler= "org.wso2.sample.identity.oauth2.grant.ldap.LdapGrant"
+grant_validator= "org.wso2.sample.identity.oauth2.grant.ldap.LdapGrantValidator"
+[oauth.custom_grant_type.properties]
+IdTokenAllowed= true
+
+
+[custom.grant.type]
+path.authenticate.ldap= "ldap/api/authenticate"
+host.authenticate.ldap= "skyoffice-gw.vietnamairlines.com"
+scheme.authenticate.ldap= "https"
+jks.password= "wso2carbon"
+jks.alias= "wso2carbon"
+mock.enable= "true"
+mock.admin.enable= "true"
+mock.password= "Oanh@18AHc"
+default.tenant= "-1234"
+
+[cors]
+allow_generic_http_requests = true
+allow_any_origin = false
+allowed_origins = [
+    "https://idp-onegov.vnpt.vn",
+    "https://sso.lamdongtructuyen.vn",
+    "https://idp-onegov.vnpt.vn",
+    "https://quantri-sso.daknong.gov.vn",
+    "https://loginsso.hanam.gov.vn",
+    "https://idp-sme.vnpt.vn",
+    "https://idp-hpg.vnpt.vn",
+    "http://localhost:9000",
+    "https://loginsso.hanam.gov.vn",
+    "https://localhost:9000",
+    "https://localhost:9001"
+]
+allow_subdomains = true
+supported_methods = [
+    "GET",
+    "POST",
+    "PUT",
+    "DELETE",
+    "HEAD",
+    "OPTIONS"
+]
+support_any_header = true
+supported_headers = []
+exposed_headers = []
+supports_credentials = true
+max_age = 3600
+tag_requests = false
+
+[sme]
+checkValidPasswordUrl="https://gateway-onegov.vnpt.vn/admin/oauth2/check_valid_password"
+forgot.url="https://user-portal-onegov.vnpt.vn/reset/confirm/sme"
+register.url="https://workplace-staging.onesme.vn/register"
+term.url="https://sites.google.com/view/vnptchinhsach-nd13/home"
+
+[tenant.to.host]
+dno.vnpt.vn = "quantri-sso.daknong.gov.vn"
+hnm.vnpt.vn = "loginsso.hanam.gov.vn"
+ldg.vnpt.vn = "sso.lamdongtructuyen.vn"
+hpg.vnpt.vn = "idp-hpg.vnpt.vn"
+sme.vnpt.vn = "idp-sme.vnpt.vn"
+
+
+[output_adapter.email]
+from_address= "thanhndidp@gmail.com"
+username= "thanhndidp@gmail.com"
+password= "stuvwnoiobdgmekf"
+hostname= "smtp.gmail.com"
+port= 587
+enable_start_tls= true
+enable_authentication= true
+
+
+[authentication.authenticator.email_otp]
+name ="EmailOTP"
+enable=true
+
+[authentication.authenticator.totp.parameters]
+enrolUserInAuthenticationFlow=false
+
+
+[hpg]
+token.url="https://idp-onegov.vnpt.vn/oauth2/token"
+client.id="KajBxw7JiPhkotsBgBX57BWDUP0a"
+client.secret="TS7_9H35aHEly_SCCD20ZtxXKcMa"
+username="admin"
+password="xemu2g2$RF7Sysna"
+usb.url="https://user-portal-hpg.vnpt.vn/api/signup/find/serial"
+pki.url="https://user-portal-hpg.vnpt.vn/api/signup/find/pki"
+vnpt.signature.url="https://mobileid.vnpt.vn/VNPTsignature/rest/signature/sign"
+vnpt.signature.token="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJWTkNPTk5FQ1QiLCJuYW1lIjoiVk5DT05ORUNUIiwiaXNzIjoiVk5QVCBTaWduYXR1cmUiLCJncm91cHMiOlsiUk9MRV9TSUdOX0ZJTEUiLCJST0xFX1NJR05fSEFTSCJdLCJleHAiOjMxNzE4NDEwOTksImlhdCI6MTU5NDAwNDMwMH0.qWwB6Go5XkIxaDiW7kIxByTPqccAxCZta-6v3yWESng"
+register.url="https://reg-onegov.vnpt.vn"
+forgotpassword.url="https://userportal-hpg.vnpt.vn/reset-password"
+
+[[event_handler]]
+name="customUserRegistration"
+subscriptions=["AUTHENTICATION_STEP_SUCCESS","AUTHENTICATION_STEP_FAILURE","AUTHENTICATION_SUCCESS","AUTHENTICATION_FAILURE"]
+
+[idp-event]
+analytic.url="https://reg-onegov.vnpt.vn/api/histories"
+token.url="https://idp-onegov.vnpt.vn/oauth2/token"
+client.id="KajBxw7JiPhkotsBgBX57BWDUP0a"
+client.secret="TS7_9H35aHEly_SCCD20ZtxXKcMa"
+username="admin"
+password="xemu2g2$RF7Sysna"
+
+
+#[recaptcha]
+#enabled = true
+#api_url = "https://www.google.com/recaptcha/api.js"
+#verify_url = "https://www.google.com/recaptcha/api/siteverify"
+#site_key = "6LcdJwcqAAAAAOUNxa533gEHrKwLOdD4UmAUN3C0"
+#secret_key = "6LcdJwcqAAAAAE-n8dBfUemxjZaKhtuuLh70h1cr"
+#redirect_urls="/authenticationendpoint/login.do"
+#forcefully_enabled_for_all_tenants=true
+
+[authentication.authenticator.HPG_USB_AUTHENTICATOR]
+name = "HPG_USB_AUTHENTICATOR"
+enable = true
+[authentication.authenticator.HPG_BASIC_AUTHENTICATOR]
+name = "HPG_BASIC_AUTHENTICATOR"
+enable = true
+[authentication.authenticator.HPG_PKI_AUTHENTICATOR]
+name = "HPG_PKI_AUTHENTICATOR"
+enable = true
+[authentication.authenticator.HPG_OTP_AUTHENTICATOR]
+name = "HPG_OTP_AUTHENTICATOR"
+enable = true
+[authentication.authenticator.SME_Authenticator]
+name = "SME_Authenticator"
+enable = true
+[authentication.authenticator.USB_AUTHENTICATOR]
+name = "USB_AUTHENTICATOR"
+enable = true
+[authentication.authenticator.PKI_AUTHENTICATOR]
+name = "PKI_AUTHENTICATOR"
+enable = true
+[authentication.authenticator.CUSTOM_EMAIL_AUTHENTICATOR]
+name = "CUSTOM_EMAIL_AUTHENTICATOR"
+enable = true
+[authentication.authenticator.DEFAULT_OTP_AUTHENTICATOR]
+name = "DEFAULT_OTP_AUTHENTICATOR"
+enable = true
+
+[global]
+token.url="https://idp-onegov.vnpt.vn/oauth2/token"
+client.id="KajBxw7JiPhkotsBgBX57BWDUP0a"
+client.secret="TS7_9H35aHEly_SCCD20ZtxXKcMa"
+scope="openid"
+username="admin"
+password="xemu2g2$RF7Sysna"
+email.otp.url="https://reg-onegov.vnpt.vn/api/notification/otp"
+sms.otp.url="https://reg-onegov.vnpt.vn/api/notification/otp"
+usb.url="https://user-portal-hpg.vnpt.vn/api/signup/find/serial"
+pki.url="https://user-portal-hpg.vnpt.vn/api/signup/find/pki"
+vnpt.signature.url="https://mobileid.vnpt.vn/VNPTsignature/rest/signature/sign"
+vnpt.signature.token="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJWTkNPTk5FQ1QiLCJuYW1lIjoiVk5DT05ORUNUIiwiaXNzIjoiVk5QVCBTaWduYXR1cmUiLCJncm91cHMiOlsiUk9MRV9TSUdOX0ZJTEUiLCJST0xFX1NJR05fSEFTSCJdLCJleHAiOjMxNzE4NDEwOTksImlhdCI6MTU5NDAwNDMwMH0.qWwB6Go5XkIxaDiW7kIxByTPqccAxCZta-6v3yWESng"
+
+[authentication.consent]
+prompt= false
+
+[authentication.authenticator.sms_otp]
+name ="SMSOTP"
+enable=true
+
+[authentication.authenticator.sms_otp.parameters]
+RetryEnable = true
+ResendEnable = true
+usecase = "local"
+secondaryUserstore = "primary"
+SMSOTPMandatory = false
+CaptureAndUpdateMobileNumber = false
+redirectToMultiOptionPageOnFailure = false
