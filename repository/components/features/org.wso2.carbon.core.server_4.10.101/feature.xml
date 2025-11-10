@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.core.server" label="WSO2 Carbon - Carbon Server Feature" provider-name="%providerName" version="4.10.101">
+  <description>This feature contains the carbon core server features</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.cluster.mgt.core" unpack="false" version="4.10.101"/>
+  <plugin id="org.wso2.carbon.roles.mgt" unpack="false" version="4.10.101"/>
+  <plugin id="bcpkix-jdk18on" unpack="false" version="1.81.0.wso2v1"/>
+  <plugin id="org.wso2.carbon.user.core" unpack="false" version="4.10.101"/>
+  <plugin id="org.wso2.carbon.admin.advisory.mgt" unpack="false" version="4.10.101"/>
+  <plugin id="poi-ooxml" unpack="false" version="5.2.3.wso2v1"/>
+  <plugin id="netty-all" unpack="false" version="4.1.115.wso2v2"/>
+  <plugin id="org.wso2.carbon.server.admin" unpack="false" version="4.10.101"/>
+  <plugin id="opentelemetry-all" unpack="false" version="1.34.1.wso2v1"/>
+  <plugin id="org.wso2.carbon.registry.server" unpack="false" version="4.10.101"/>
+  <plugin id="com.google.guava.failureaccess" unpack="false" version="1.0.2"/>
+  <plugin id="bcprov-jdk18on" unpack="false" version="1.81.0.wso2v1"/>
+  <plugin id="bctls-jdk18on" unpack="false" version="1.81.0.wso2v1"/>
+  <plugin id="com.google.guava" unpack="false" version="33.0.0.jre"/>
+  <plugin id="org.wso2.carbon.core.services" unpack="false" version="4.10.101"/>
+  <require>
+    <import feature="org.wso2.carbon.database.utils" match="compatible" version="2.2.8"/>
+  </require>
+</feature>

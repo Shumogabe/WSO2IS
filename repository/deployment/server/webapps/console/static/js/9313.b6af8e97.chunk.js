@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_wso2is_console=self.webpackChunk_wso2is_console||[]).push([[9313],{69313:(e,s,n)=>{n.r(s),n.d(s,{default:()=>c});var o=n(76271),t=n(45458),a=n(44194);const c=function(){return a.createElement(t.Z,{approvalsUrl:o.h.getState().config.endpoints.approvals})}}}]);

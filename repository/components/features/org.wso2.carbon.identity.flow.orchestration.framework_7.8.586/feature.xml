@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.flow.orchestration.framework" label="Flow orchestration Framework Feature" provider-name="%providerName" version="7.8.586">
+  <description>This feature contains the bundles required for flow orchestration framework aggregated functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <includes id="org.wso2.carbon.identity.flow.mgt.server" optional="false" version="7.8.586"/>
+  <includes id="org.wso2.carbon.identity.flow.execution.engine.server" optional="false" version="7.8.586"/>
+</feature>

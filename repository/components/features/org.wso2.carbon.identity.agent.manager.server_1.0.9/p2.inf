@@ -1,0 +1,9 @@
+instructions.configure = \
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.identity.agent.manager.server_1.0.9/AGENT.xml.j2,target:${installFolder}/../../resources/conf/templates/repository/conf/identity/agent/AGENT.xml.j2,overwrite:true);\
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../../dbscripts); \
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../../dbscripts/identity); \
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../../dbscripts/identity/agent); \
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.identity.agent.manager.server_1.0.9/dbscripts/,target:${installFolder}/../../../dbscripts/identity/agent/,overwrite:true);\
+
+properties.0.name=org.wso2.carbon.p2.category.type
+properties.0.value=server
